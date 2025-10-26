@@ -25,6 +25,7 @@ _model_net_init_registry = {
     "LSTM": _LSTM.init_from_config,
     "Sequential": _Sequential.init_from_config,
     "WaveNet": _WaveNet.init_from_config,
+    "PromptWaveNet": _WaveNet.init_from_config,
 }
 
 
