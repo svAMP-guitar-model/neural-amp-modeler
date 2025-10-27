@@ -53,22 +53,30 @@ class PromptDataset(Dataset):
             input_gain, sample_rate, require_input_pre_silence
         )
         
-        self.prompt = prompt
-        self.prompt_emb = model.encode(self.prompt)
+        self._prompt = prompt
+        self._prompt_emb = model.encode(self.prompt)
         if self.prompt_emb.shape[0] != embedding_size:
             raise DataError("Embedding size mismatch!")
     
     @property
     def prompt(self):
-        return self.prompt 
+        return self._prompt 
     
+    @prompt.setter
+    def prompt(self, value: str):
+        self._prompt = value
+
     @property
     def prompt_emb(self):
-        return self.prompt_emb
+        return self._prompt_emb
     
+    @prompt_emb.setter
+    def prompt_emb(self, value):
+        self._prompt_emb = value
+        
     def __getitem__(self, idx: int) -> _Tuple:
         x_wind, y_wind = super().__getitem__(idx)
-        emb = self.prompt_emb[:, None] 
+        emb = self._prompt_emb[:, None] 
         return x_wind, emb, y_wind
 
     @classmethod
@@ -81,11 +89,11 @@ class PromptDataset(Dataset):
                 prompt
                 embedding_size
         """
-        parse_conf = super().parse_config(cls, config)
+        parse_conf = super().parse_config(config)
 
-        if config.pop("prompt", False):
+        if "prompt" not in config:
             raise DataError("Missing prompt value!")
-        if config.pop("embedding_size", False):
+        if "embedding_size" not in config:
             raise DataError("Missing embedding_size!")
 
         parse_conf["prompt"] = config.pop("prompt")
@@ -93,5 +101,10 @@ class PromptDataset(Dataset):
 
         return parse_conf
         
-        
+    @classmethod
+    def init_from_config(cls, config):
+        parsed_conf = cls.parse_config(config)
+        return cls(**parsed_conf)
+    
+# register_dataset_initializer("prompt_dataset", PromptDataset.init_from_config)
 

@@ -25,6 +25,8 @@ from nam.data import (
 from nam.train import lightning_module as _lightning_module
 from nam.util import filter_warnings as _filter_warnings
 
+from nam.models.prompt_wavenet import PromptWaveNet as _PromptWaveNet
+
 _torch.manual_seed(0)
 
 
@@ -69,7 +71,10 @@ def _plot(
         tx = len(ds.x) / 48_000
         print(f"Run (t={tx:.2f})")
         t0 = _time()
-        output = model(ds.x).flatten().cpu().numpy()
+        # if isinstance(model, _PromptWaveNet):
+        output = model(x=ds.x, prompt_emb=ds.prompt_emb[None, :]).flatten().cpu().numpy()
+        # else:
+        #     output = model(ds.x).flatten().cpu().numpy()
         t1 = _time()
         try:
             rt = f"{tx / (t1 - t0):.2f}"

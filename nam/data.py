@@ -36,6 +36,8 @@ from ._core import (
 )
 from ._handshake import HandshakeError as _HandshakeError
 
+
+
 logger = _logging.getLogger(__name__)
 
 _REQUIRED_CHANNELS = 1  # Mono
@@ -865,7 +867,13 @@ class ConcatDataset(AbstractDataset, _InitializableFromConfig):
                     )
 
 
-_dataset_init_registry = {"dataset": Dataset.init_from_config}
+
+def _init_prompt_dataset(config):
+    from .prompt_dataset import PromptDataset
+    print(config)
+    return PromptDataset.init_from_config(config)
+
+_dataset_init_registry = {"dataset": Dataset.init_from_config, "prompt_dataset": _init_prompt_dataset}
 
 
 def register_dataset_initializer(

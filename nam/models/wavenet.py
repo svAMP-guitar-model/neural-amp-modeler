@@ -334,14 +334,15 @@ class _WaveNet(_nn.Module):
         for layer in self._layers:
             i = layer.import_weights(weights, i)
 
-    def forward(self, x: _torch.Tensor) -> _torch.Tensor:
+    def forward(self, x: _torch.Tensor, c: _torch.Tensor) -> _torch.Tensor:
         """
         :param x: (B,Cx,L)
         :return: (B,Cy,L-R)
         """
-        y, head_input = x, None
+        y, head_input = x, None 
+        c = c if c is not None else x
         for layer in self._layers:
-            head_input, y = layer(y, x, head_input=head_input)
+            head_input, y = layer(y, c, head_input=head_input)
         head_input = self._head_scale * head_input
         return head_input if self._head is None else self._head(head_input)
 

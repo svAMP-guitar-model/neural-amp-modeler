@@ -16,6 +16,7 @@ from .linear import Linear as _Linear
 from .recurrent import LSTM as _LSTM
 from .wavenet import WaveNet as _WaveNet
 from .sequential import Sequential as _Sequential
+from .prompt_wavenet import PromptWaveNet as _PromptWaveNet
 
 _logger = _logging.getLogger(__name__)
 
@@ -25,7 +26,7 @@ _model_net_init_registry = {
     "LSTM": _LSTM.init_from_config,
     "Sequential": _Sequential.init_from_config,
     "WaveNet": _WaveNet.init_from_config,
-    "PromptWaveNet": _WaveNet.init_from_config,
+    "PromptWaveNet": _PromptWaveNet.init_from_config,
 }
 
 
