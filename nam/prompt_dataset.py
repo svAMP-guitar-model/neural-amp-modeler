@@ -20,7 +20,7 @@ from typing import (
 load_dotenv()
 
 login(token=os.getenv("HF_TOKEN"))
-model = SentenceTransformer("google/embeddinggemma-300m")
+gemma_model = SentenceTransformer("google/embeddinggemma-300m")
 
 class PromptDataset(Dataset):
     
@@ -54,10 +54,14 @@ class PromptDataset(Dataset):
         )
         
         self._prompt = prompt
-        self._prompt_emb = model.encode(self.prompt)
+        self._prompt_emb = gemma_model.encode(self.prompt)
         if self.prompt_emb.shape[0] != embedding_size:
             raise DataError("Embedding size mismatch!")
     
+        print(f"x shape: {x.shape}, mean: {x.mean().item()}")
+        print(f"y shape: {y.shape}, mean: {y.mean().item()}")
+        print(f"Prompt embedding shape: {self._prompt_emb.shape}")
+
     @property
     def prompt(self):
         return self._prompt 

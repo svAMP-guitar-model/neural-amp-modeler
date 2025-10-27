@@ -172,6 +172,15 @@ def main(
         )
     model.net.sample_rate = dataset_train.sample_rate
 
+    print("Dataset size: ", len(dataset_train))
+    print("Dataset val size: ", len(dataset_validation))
+    print("Dataset_train nx: ", dataset_train.nx)
+    print("Dataset_train ny: ", dataset_train.ny)
+
+    # these are literally taken from our .json 
+    print("Dataset_val nx: ", dataset_validation.nx)
+    print("Dataset_val ny: ", dataset_validation.ny) # if null, nam/data.py line 434
+
     # Perform handshakes:
     dataset_train.handshake(model.net)
     dataset_validation.handshake(model.net)
