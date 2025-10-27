@@ -1,0 +1,24 @@
+{
+    "_notes": [
+        "Dev note: Ensure that tests/test_bin/test_train/test_main.py's data is ",
+        "representative of this!"
+    ],
+    "type": "prompt_dataset",
+    "train": {
+        "start_seconds": null,
+        "stop_seconds": null,
+        "ny": 8192
+    },
+    "validation": {
+        "start_seconds": null,
+        "stop_seconds": null,
+        "ny": null
+    },
+    "common": {
+        "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G91-40100-1111-21061.wav",
+        "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Tremolo/G91-40100-3343-35413.wav",
+        "prompt": "Create a Distortion effect with the following parameters: 35% Drive, 50% Muffle, 0dB Output",
+        "embedding_size": 768,
+        "delay": 0
+    }
+}

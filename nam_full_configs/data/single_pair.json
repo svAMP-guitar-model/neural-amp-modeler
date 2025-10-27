@@ -14,8 +14,8 @@
         "ny": null
     },
     "common": {
-        "x_path": "C:\\path\\to\\source.wav",
-        "y_path": "C:\\path\\to\\target.wav",
+        "x_path": "input.wav",
+        "y_path": "output.wav",
         "delay": 0
     }
 }
