@@ -58,6 +58,8 @@ class PromptDataset(Dataset):
         if self.prompt_emb.shape[0] != embedding_size:
             raise DataError("Embedding size mismatch!")
     
+        print(f"nx: {nx}")
+        print(f"nx: {ny}")
         print(f"x shape: {x.shape}, mean: {x.mean().item()}")
         print(f"y shape: {y.shape}, mean: {y.mean().item()}")
         print(f"Prompt embedding shape: {self._prompt_emb.shape}")
@@ -108,6 +110,7 @@ class PromptDataset(Dataset):
     @classmethod
     def init_from_config(cls, config):
         parsed_conf = cls.parse_config(config)
+        print("This is the parsed conf: ", parsed_conf)
         return cls(**parsed_conf)
     
 # register_dataset_initializer("prompt_dataset", PromptDataset.init_from_config)

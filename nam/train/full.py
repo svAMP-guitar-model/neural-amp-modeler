@@ -10,10 +10,15 @@ from warnings import warn as _warn
 
 import matplotlib.pyplot as _plt
 import numpy as _np
+import pandas as pd
+import matplotlib.pyplot as plt
+
 import pytorch_lightning as _pl
 from pytorch_lightning.utilities.warnings import (
     PossibleUserWarning as _PossibleUserWarning,
 )
+from pytorch_lightning.loggers import CSVLogger
+
 import torch as _torch
 from torch.utils.data import DataLoader as _DataLoader
 
@@ -71,7 +76,11 @@ def _plot(
         tx = len(ds.x) / 48_000
         print(f"Run (t={tx:.2f})")
         t0 = _time()
-        # if isinstance(model, _PromptWaveNet):
+        print("=========== POST TRAINING ============")
+        print("is promptwavenet: ", isinstance(model, _PromptWaveNet))
+        print("Dataset x: ", ds.x.shape)
+        print("Dataset y: ", ds.y.shape)
+        print("Dataset emb: ", ds.prompt_emb.shape)
         output = model(x=ds.x, prompt_emb=ds.prompt_emb[None, :]).flatten().cpu().numpy()
         # else:
         #     output = model(ds.x).flatten().cpu().numpy()
@@ -192,7 +201,9 @@ def main(
         dataset_validation, **learning_config["val_dataloader"]
     )
 
+    logger = CSVLogger(save_dir=outdir, name="csv")
     trainer = _pl.Trainer(
+        logger=logger,
         callbacks=_create_callbacks(learning_config),
         default_root_dir=outdir,
         **learning_config["trainer"],
@@ -223,6 +234,13 @@ def main(
             show=False,
         )
         _plot(model, dataset_validation, show=not no_show)
+        
+        csv_dir = trainer.logger.log_dir 
+        df = pd.read_csv(f"{csv_dir}/metrics.csv")
+        df.groupby("epoch")["train_loss"].last().plot(label="train")
+        df.groupby("epoch")["val_loss"].last().plot(label="val")
+        plt.legend(); plt.xlabel("epoch"); plt.ylabel("loss"); plt.show()
+
     # Export!
     model.net.export(outdir)
 
