@@ -7,7 +7,7 @@
     "train": {
         "start_seconds": null,
         "stop_seconds": null,
-        "ny": 8192
+        "ny": 128
     },
     "validation": {
         "start_seconds": null,

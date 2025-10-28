@@ -12,6 +12,7 @@ import matplotlib.pyplot as _plt
 import numpy as _np
 import pandas as pd
 import matplotlib.pyplot as plt
+from tqdm import tqdm as _tqdm
 
 import pytorch_lightning as _pl
 from pytorch_lightning.utilities.warnings import (
@@ -81,6 +82,7 @@ def _plot(
         print("Dataset x: ", ds.x.shape)
         print("Dataset y: ", ds.y.shape)
         print("Dataset emb: ", ds.prompt_emb.shape)
+
         output = model(x=ds.x, prompt_emb=ds.prompt_emb[None, :]).flatten().cpu().numpy()
         # else:
         #     output = model(ds.x).flatten().cpu().numpy()
@@ -225,16 +227,22 @@ def main(
     model.cpu()
     model.eval()
     if make_plots:
-        _plot(
-            model,
-            dataset_validation,
-            savefig=_Path(outdir, "comparison.png"),
-            window_start=100_000,
-            window_end=110_000,
-            show=False,
-        )
+
+        # _plot(
+        #     model,
+        #     dataset_validation,
+        #     savefig=_Path(outdir, "comparison.png"),
+        #     window_start=100_000,
+        #     window_end=110_000,
+        #     show=False,
+        # )
         _plot(model, dataset_validation, show=not no_show)
         
+        _chunk_and_plot_1_dp(
+            model, dataset_train,
+            dataset_train.ny, savefig=_Path(outdir, "comparison.png")
+        )
+
         csv_dir = trainer.logger.log_dir 
         df = pd.read_csv(f"{csv_dir}/metrics.csv")
         df.groupby("epoch")["train_loss"].last().plot(label="train")
@@ -247,3 +255,46 @@ def main(
     # Tear down the datasets
     train_dataloader.dataset.teardown()
     val_dataloader.dataset.teardown()
+
+
+def _chunk_and_plot_1_dp(model, dataset, ny, savefig):
+    if ny is not None and ny != dataset.ny:
+        dataset.ny = ny 
+    
+    prompt_emb = dataset.prompt_emb
+    output_waves = []
+    ground_waves = []
+
+    t0 = _time()
+    with _torch.no_grad():
+        for i in _tqdm(range(len(dataset)), desc="Inference"):
+            x = dataset[i][0]
+            y = dataset[i][2]
+            output_wave = model(x, prompt_emb=prompt_emb[None, :], pad_start=False).flatten().cpu() 
+            output_waves.append(output_wave)
+            ground_waves.append(y)
+    t1 = _time()
+
+    output_waves = _torch.cat(output_waves)
+    ground_waves = _torch.cat(ground_waves)
+
+    print(f"Took {t1 - t0:.2f}")
+
+    _plt.figure(figsize=(16, 5))
+    _plt.plot(output_waves, label="Prediction")
+    _plt.plot(ground_waves, linestyle="--", label="Target")
+
+    nrmse = _rms(output_waves - ground_waves) / _rms(ground_waves)
+    esr = nrmse**2
+    _plt.title(f"ESR={esr:.3f}")
+
+    _plt.legend()
+    if savefig is not None:
+        _plt.savefig(savefig)
+    _plt.show()
+    
+        
+     
+    
+    
+    

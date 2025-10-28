@@ -458,6 +458,9 @@ class Dataset(AbstractDataset, _InitializableFromConfig):
     @property
     def ny(self) -> int:
         return self._ny
+    @ny.setter
+    def ny(self, value: int):
+        self._ny = value
 
     @property
     def sample_rate(self) -> _Optional[float]:
