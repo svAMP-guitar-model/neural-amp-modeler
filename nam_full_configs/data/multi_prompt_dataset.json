@@ -1,0 +1,1517 @@
+{
+  "_notes": [
+    "Auto-generated from CSV using nam_full_configs/dataset_generator.py"
+  ],
+  "type": "prompt_dataset",
+  "common": {
+    "start_seconds": null,
+    "stop_seconds": null,
+    "embedding_size": 768,
+    "delay": 0,
+    "ny": 1024
+  },
+  "train": [
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-61502-1111-21115",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G91-61502-2221-23611",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 229 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0.4:1.6 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-50300-1111-20775",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G71-50300-2222-23895",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 998 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-48108-1111-20601",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G61-48108-4413-38697",
+      "prompt": "Create a Distortion effect with the following parameters: 40% Drive, 40% Muffle, 0dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-66411-1111-21111",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G91-66411-4423-41079",
+      "prompt": "Create a Overdrive effect with the following parameters: Off Speaker Simulation, magic OD Factory Preset, 3dB Bass, 6dB Mid, -3dB High, 0dB Input, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-58308-1111-21095",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G91-58308-4422-40439",
+      "prompt": "Create a Overdrive effect with the following parameters: 5 o clock Shape, On Shaper, Off Limiter, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-57402-1111-20868",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G73-57402-3332-32724",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-54304-1111-21169",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G93-54304-3343-35521",
+      "prompt": "Create a Tremolo effect with the following parameters: 10.74 Hz Tremolo Rate, 166.7 Pan Mod Depth, 177.1 Wet Mix, 0 Dry Mix"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-40100-1111-21139",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G93-40100-2212-22387",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Digital Type, 397 ms Time, 39%% Feedback Level, Off Ping-Pong, 100% Quality, 73 Hz Low Cut, 8.4 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-61311-1111-21098",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Vibrato/G91-61311-3353-37322",
+      "prompt": "Create a Vibrato effect with the following parameters: 7 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 6.5 Hz Modulation Rate, 0.2 ms Modulation Depth"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-53303-1111-20622",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/EQ/G61-53303-1121-26862",
+      "prompt": "Create a EQ effect with the following parameters: On Bright, 8.8 Volume, 5 Low, 5 Mid, 5 High, 5 Tr Speed, 0 Tr Intens"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-70606-1111-20976",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G81-70606-2232-25968",
+      "prompt": "Create a Reverb effect with the following parameters: 160 m2 Size, 38 Damping, 0 ms Predelay, 38 Hi Damp, 217 Hz Low Cut, 0dB Early Ref, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-64409-1111-20797",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Vibrato/G71-64409-3351-35773",
+      "prompt": "Create a Vibrato effect with the following parameters: 4.57 ms Delay Time, 4.06 Hz Rate, Off Sync, 20% Depth, Off Spread, 0% Feedback, 0:2 Mix, 0.3dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-71512-1111-20813",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G71-71512-4421-39533",
+      "prompt": "Create a Overdrive effect with the following parameters: 0dB Input, 325 Hz Low Cut, 600 Hz Mid Frequency, 0dB Mid Gain, 7 Drive, 7 Shape, 4 Tone, 5 kHz High Frequency, 1.4 High Q, -4dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-66411-1111-20955",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G81-66411-3313-29691",
+      "prompt": "Create a Chorus effect with the following parameters: 25 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 45% Feedback Mix, 0.4 Modulation Rate, 3.5 Modulation Depth"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-42102-1111-20751",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G71-42102-3321-30111",
+      "prompt": "Create a Flanger effect with the following parameters: 2.61 ms Delay Time, 0.303 Hz Rate, Off Sync, 90% Depth, Off Spread, -95% Feedback, 0.24:1.8 Mix, -3dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-66507-1111-21120",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G91-66507-3331-32352",
+      "prompt": "Create a Phaser effect with the following parameters: 10 Stages, 5680 Hz Upper, 0.302 Hz Rate, Off Sync, 55% Depth, Off Spread, 80% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-60501-1111-20724",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G63-60501-3343-35076",
+      "prompt": "Create a Tremolo effect with the following parameters: 10.74 Hz Tremolo Rate, 166.7 Pan Mod Depth, 177.1 Wet Mix, 0 Dry Mix"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-54209-1111-20849",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G73-54209-4411-37697",
+      "prompt": "Create a Distortion effect with the following parameters: 2 o clock Gain, 1 o clock Tone, 10 o clock Edge, 12 o clock Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-57212-1111-20774",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G71-57212-3332-32630",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-67603-1111-20895",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G73-67603-3311-28383",
+      "prompt": "Create a Chorus effect with the following parameters: 3.75 ms Delay Time, 1.51 Hz Rate, On Spread, 43% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-49109-1111-21148",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G93-49109-4412-38620",
+      "prompt": "Create a Distortion effect with the following parameters: 3 Shape, 90% Contour, 95% Drive, wracky Factory Preset, 0dB Input, -17dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-63408-1111-20952",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G81-63408-2232-25944",
+      "prompt": "Create a Reverb effect with the following parameters: 160 m2 Size, 38 Damping, 0 ms Predelay, 38 Hi Damp, 217 Hz Low Cut, 0dB Early Ref, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-58308-1111-20939",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Vibrato/G81-58308-3352-36539",
+      "prompt": "Create a Vibrato effect with the following parameters: 10 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 1.8 Hz Modulation Rate, 1.6 ms Modulation Depth"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-59500-1111-20645",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Vibrato/G61-59500-3353-36869",
+      "prompt": "Create a Vibrato effect with the following parameters: 7 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 6.5 Hz Modulation Rate, 0.2 ms Modulation Depth"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-51206-1111-20768",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G71-51206-3322-30752",
+      "prompt": "Create a Flanger effect with the following parameters: 3.98 ms Delay Time, 1.02 Hz Rate, Off Sync, 55% Depth, Off Spread, 65% Feedback, 1:1 Mix, -0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-71512-1111-20969",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G81-71512-3313-29705",
+      "prompt": "Create a Chorus effect with the following parameters: 25 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 45% Feedback Mix, 0.4 Modulation Rate, 3.5 Modulation Depth"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-44104-1111-20909",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G81-44104-2231-25277",
+      "prompt": "Create a Reverb effect with the following parameters: 640 m2 Size, 18 Damping, 0 ms Predelay, 50 Hi Damp, 65 Hz Low Cut, 2dB Early Ref, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-51206-1111-20690",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G63-51206-3332-32546",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-67508-1111-21121",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G91-67508-2213-22993",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 280 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 55% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-73609-1111-20667",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G61-73609-3341-33771",
+      "prompt": "Create a Tremolo effect with the following parameters: 6 Hz Frequency, Sine Oscillator, 75% Output, 100% Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-60501-1111-20958",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G81-60501-3333-33438",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-67412-1111-21112",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G91-67412-4413-39208",
+      "prompt": "Create a Distortion effect with the following parameters: 40% Drive, 40% Muffle, 0dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-62407-1111-20717",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G63-62407-3323-31325",
+      "prompt": "Create a Flanger effect with the following parameters: 85% Feedback, 80 ms Delay, 30% Depth, 100% Stereobasis, 16 Shape Sync, 4.4 Hz Rate, 100% Output, 50% Mix"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-64600-1111-20658",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G61-64600-2231-25026",
+      "prompt": "Create a Reverb effect with the following parameters: 640 m2 Size, 18 Damping, 0 ms Predelay, 50 Hi Damp, 65 Hz Low Cut, 2dB Early Ref, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-56306-1111-20781",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Vibrato/G71-56306-3351-35757",
+      "prompt": "Create a Vibrato effect with the following parameters: 4.57 ms Delay Time, 4.06 Hz Rate, Off Sync, 20% Depth, Off Spread, 0% Feedback, 0:2 Mix, 0.3dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-54209-1111-21083",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G91-54209-2232-26075",
+      "prompt": "Create a Reverb effect with the following parameters: 160 m2 Size, 38 Damping, 0 ms Predelay, 38 Hi Damp, 217 Hz Low Cut, 0dB Early Ref, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-70606-1111-20820",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G71-70606-4412-38292",
+      "prompt": "Create a Distortion effect with the following parameters: 3 Shape, 90% Contour, 95% Drive, wracky Factory Preset, 0dB Input, -17dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-61406-1111-21184",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G93-61406-3332-33040",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-74610-1111-21058",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G83-74610-3332-32914",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-60501-1111-20880",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G73-60501-4413-38976",
+      "prompt": "Create a Distortion effect with the following parameters: 40% Drive, 40% Muffle, 0dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-49204-1111-20922",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/EQ/G81-49204-1122-27786",
+      "prompt": "Create a EQ effect with the following parameters: 4x12 1 Model, 0 Drive, 0 Bias, 0dB Output, Mono Process"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-59309-1111-20784",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G71-59309-3333-33264",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-61502-1111-21115",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G91-61502-4423-41083",
+      "prompt": "Create a Overdrive effect with the following parameters: Off Speaker Simulation, magic OD Factory Preset, 3dB Bass, 6dB Mid, -3dB High, 0dB Input, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-69605-1111-20897",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/EQ/G73-69605-1121-27137",
+      "prompt": "Create a EQ effect with the following parameters: On Bright, 8.8 Volume, 5 Low, 5 Mid, 5 High, 5 Tr Speed, 0 Tr Intens"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-76612-1111-21216",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G93-76612-4413-39312",
+      "prompt": "Create a Distortion effect with the following parameters: 40% Drive, 40% Muffle, 0dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-65506-1111-20651",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G61-65506-4411-37499",
+      "prompt": "Create a Distortion effect with the following parameters: 2 o clock Gain, 1 o clock Tone, 10 o clock Edge, 12 o clock Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-45105-1111-20910",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G81-45105-2233-26526",
+      "prompt": "Create a Reverb effect with the following parameters: 0 Gating Amount, 10 ms Gating Attack, 10 ms Gating Release, 2522 ms Decay Time, 50% Decay Diffusion, Off Decay Hold, 24% Shape Size, 0 ms Shape Predelay, 100% Shape Width, 100% Shape Quality, 0 Shape Variation, 43 Hz EQ Bass Freq, - 7.8dB EQ Bass Gain, 5044 Hz EQ Treble Freq, -3.7dB EQ Treble Gain, 158 Hz Damping Bass Freq, 87% Damping Bass Amount, 8127 Hz Damping Treble Freq, 32% Damping Treble Amount, -inf Dry, 0dB Wet"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-69510-1111-21045",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Vibrato/G83-69510-3352-36645",
+      "prompt": "Create a Vibrato effect with the following parameters: 10 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 1.8 Hz Modulation Rate, 1.6 ms Modulation Depth"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-61406-1111-20638",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G61-61406-3333-33118",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-50300-1111-20697",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G63-50300-3321-30057",
+      "prompt": "Create a Flanger effect with the following parameters: 2.61 ms Delay Time, 0.303 Hz Rate, Off Sync, 90% Depth, Off Spread, -95% Feedback, 0.24:1.8 Mix, -3dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-54304-1111-20623",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G61-54304-4421-39343",
+      "prompt": "Create a Overdrive effect with the following parameters: 0dB Input, 325 Hz Low Cut, 600 Hz Mid Frequency, 0dB Mid Gain, 7 Drive, 7 Shape, 4 Tone, 5 kHz High Frequency, 1.4 High Q, -4dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-50205-1111-20611",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/EQ/G61-50205-1121-26851",
+      "prompt": "Create a EQ effect with the following parameters: On Bright, 8.8 Volume, 5 Low, 5 Mid, 5 High, 5 Tr Speed, 0 Tr Intens"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-74610-1111-20746",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G63-74610-3312-28858",
+      "prompt": "Create a Chorus effect with the following parameters: 10 ms Delay Time, 0.631 Hz Rate, Off Spread, 75% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-43103-1111-21142",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G93-43103-4423-41110",
+      "prompt": "Create a Overdrive effect with the following parameters: Off Speaker Simulation, magic OD Factory Preset, 3dB Bass, 6dB Mid, -3dB High, 0dB Input, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-61502-1111-20725",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G63-61502-2223-24469",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 540 ms Delay Time, 100% Dry Mix, 40% Wet Mix, 0% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-58308-1111-21017",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G83-58308-3312-29129",
+      "prompt": "Create a Chorus effect with the following parameters: 10 ms Delay Time, 0.631 Hz Rate, Off Spread, 75% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-65506-1111-20963",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G81-65506-3342-34691",
+      "prompt": "Create a Tremolo effect with the following parameters: 2.2 Hz Frequency, Sine Oscillator, 100% Output, 100% Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-47202-1111-21154",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G93-47202-3311-28642",
+      "prompt": "Create a Chorus effect with the following parameters: 3.75 ms Delay Time, 1.51 Hz Rate, On Spread, 43% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-75611-1111-20669",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Vibrato/G61-75611-3352-36269",
+      "prompt": "Create a Vibrato effect with the following parameters: 10 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 1.8 Hz Modulation Rate, 1.6 ms Modulation Depth"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-55400-1111-20788",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G71-55400-4421-39508",
+      "prompt": "Create a Overdrive effect with the following parameters: 0dB Input, 325 Hz Low Cut, 600 Hz Mid Frequency, 0dB Mid Gain, 7 Drive, 7 Shape, 4 Tone, 5 kHz High Frequency, 1.4 High Q, -4dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-45105-1111-20910",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G81-45105-2231-25278",
+      "prompt": "Create a Reverb effect with the following parameters: 640 m2 Size, 18 Damping, 0 ms Predelay, 50 Hi Damp, 65 Hz Low Cut, 2dB Early Ref, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-73609-1111-20901",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G73-73609-3331-32133",
+      "prompt": "Create a Phaser effect with the following parameters: 10 Stages, 5680 Hz Upper, 0.302 Hz Rate, Off Sync, 55% Depth, Off Spread, 80% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-76612-1111-20982",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G81-76612-3332-32838",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-51206-1111-21002",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G83-51206-4413-39098",
+      "prompt": "Create a Distortion effect with the following parameters: 40% Drive, 40% Muffle, 0dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-50110-1111-20915",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G81-50110-2232-25907",
+      "prompt": "Create a Reverb effect with the following parameters: 160 m2 Size, 38 Damping, 0 ms Predelay, 38 Hi Damp, 217 Hz Low Cut, 0dB Early Ref, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-57402-1111-21180",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G93-57402-2222-24300",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 998 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-60310-1111-20941",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G81-60310-2233-26557",
+      "prompt": "Create a Reverb effect with the following parameters: 0 Gating Amount, 10 ms Gating Attack, 10 ms Gating Release, 2522 ms Decay Time, 50% Decay Diffusion, Off Decay Hold, 24% Shape Size, 0 ms Shape Predelay, 100% Shape Width, 100% Shape Quality, 0 Shape Variation, 43 Hz EQ Bass Freq, - 7.8dB EQ Bass Gain, 5044 Hz EQ Treble Freq, -3.7dB EQ Treble Gain, 158 Hz Damping Bass Freq, 87% Damping Bass Amount, 8127 Hz Damping Treble Freq, 32% Damping Treble Amount, -inf Dry, 0dB Wet"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-47107-1111-21146",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G93-47107-2213-23018",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 280 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 55% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-47107-1111-20756",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G71-47107-3323-31364",
+      "prompt": "Create a Flanger effect with the following parameters: 85% Feedback, 80 ms Delay, 30% Depth, 100% Stereobasis, 16 Shape Sync, 4.4 Hz Rate, 100% Output, 50% Mix"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-68604-1111-20974",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G81-68604-4412-38446",
+      "prompt": "Create a Distortion effect with the following parameters: 3 Shape, 90% Contour, 95% Drive, wracky Factory Preset, 0dB Input, -17dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-66602-1111-20816",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G71-66602-3312-28928",
+      "prompt": "Create a Chorus effect with the following parameters: 10 ms Delay Time, 0.631 Hz Rate, Off Spread, 75% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-64600-1111-20814",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G71-64600-3341-33918",
+      "prompt": "Create a Tremolo effect with the following parameters: 6 Hz Frequency, Sine Oscillator, 75% Output, 100% Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-53208-1111-20692",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G63-53208-3322-30676",
+      "prompt": "Create a Flanger effect with the following parameters: 3.98 ms Delay Time, 1.02 Hz Rate, Off Sync, 55% Depth, Off Spread, 65% Feedback, 1:1 Mix, -0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-55305-1111-21014",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G83-55305-4412-38486",
+      "prompt": "Create a Distortion effect with the following parameters: 3 Shape, 90% Contour, 95% Drive, wracky Factory Preset, 0dB Input, -17dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-65410-1111-21188",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G93-65410-3332-33044",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-66602-1111-20894",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Vibrato/G73-66602-3351-35870",
+      "prompt": "Create a Vibrato effect with the following parameters: 4.57 ms Delay Time, 4.06 Hz Rate, Off Sync, 20% Depth, Off Spread, 0% Feedback, 0:2 Mix, 0.3dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-62312-1111-21021",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G83-62312-2223-24765",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 540 ms Delay Time, 100% Dry Mix, 40% Wet Mix, 0% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-58403-1111-20635",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G61-58403-3332-32491",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-47202-1111-21076",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/EQ/G91-47202-1121-27316",
+      "prompt": "Create a EQ effect with the following parameters: On Bright, 8.8 Volume, 5 Low, 5 Mid, 5 High, 5 Tr Speed, 0 Tr Intens"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-51206-1111-21080",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G91-51206-4411-37928",
+      "prompt": "Create a Distortion effect with the following parameters: 2 o clock Gain, 1 o clock Tone, 10 o clock Edge, 12 o clock Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-70606-1111-20820",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G71-70606-3333-33300",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-40100-1111-20749",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G71-40100-3323-31357",
+      "prompt": "Create a Flanger effect with the following parameters: 85% Feedback, 80 ms Delay, 30% Depth, 100% Stereobasis, 16 Shape Sync, 4.4 Hz Rate, 100% Output, 50% Mix"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-60501-1111-20958",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G81-60501-2212-22206",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Digital Type, 397 ms Time, 39%% Feedback Level, Off Ping-Pong, 100% Quality, 73 Hz Low Cut, 8.4 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-74610-1111-21136",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G91-74610-4421-39856",
+      "prompt": "Create a Overdrive effect with the following parameters: 0dB Input, 325 Hz Low Cut, 600 Hz Mid Frequency, 0dB Mid Gain, 7 Drive, 7 Shape, 4 Tone, 5 kHz High Frequency, 1.4 High Q, -4dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-72608-1111-20900",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G73-72608-3332-32756",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-52207-1111-20691",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G63-52207-3332-32547",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-51206-1111-21080",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G91-51206-4421-39800",
+      "prompt": "Create a Overdrive effect with the following parameters: 0dB Input, 325 Hz Low Cut, 600 Hz Mid Frequency, 0dB Mid Gain, 7 Drive, 7 Shape, 4 Tone, 5 kHz High Frequency, 1.4 High Q, -4dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-54304-1111-20935",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G81-54304-2233-26551",
+      "prompt": "Create a Reverb effect with the following parameters: 0 Gating Amount, 10 ms Gating Attack, 10 ms Gating Release, 2522 ms Decay Time, 50% Decay Diffusion, Off Decay Hold, 24% Shape Size, 0 ms Shape Predelay, 100% Shape Width, 100% Shape Quality, 0 Shape Variation, 43 Hz EQ Bass Freq, - 7.8dB EQ Bass Gain, 5044 Hz EQ Treble Freq, -3.7dB EQ Treble Gain, 158 Hz Damping Bass Freq, 87% Damping Bass Amount, 8127 Hz Damping Treble Freq, 32% Damping Treble Amount, -inf Dry, 0dB Wet"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-68509-1111-20732",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G63-68509-3333-33212",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-61406-1111-20794",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G71-61406-3341-33898",
+      "prompt": "Create a Tremolo effect with the following parameters: 6 Hz Frequency, Sine Oscillator, 75% Output, 100% Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-75611-1111-20825",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G71-75611-2222-23945",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 998 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-51206-1111-20690",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G63-51206-2211-21314",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 144 ms Time, 80% Feedback Level, Off Ping-Pong, 100% Quality, 20 Hz Low Cut, 6.22 kHz High Cut, 0.7:1.3 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-66507-1111-20652",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/EQ/G61-66507-1121-26892",
+      "prompt": "Create a EQ effect with the following parameters: On Bright, 8.8 Volume, 5 Low, 5 Mid, 5 High, 5 Tr Speed, 0 Tr Intens"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-64600-1111-20814",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G71-64600-3312-28926",
+      "prompt": "Create a Chorus effect with the following parameters: 10 ms Delay Time, 0.631 Hz Rate, Off Spread, 75% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-62312-1111-21177",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G93-62312-4411-38025",
+      "prompt": "Create a Distortion effect with the following parameters: 2 o clock Gain, 1 o clock Tone, 10 o clock Edge, 12 o clock Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-64409-1111-20719",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G63-64409-2211-21343",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 144 ms Time, 80% Feedback Level, Off Ping-Pong, 100% Quality, 20 Hz Low Cut, 6.22 kHz High Cut, 0.7:1.3 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-49204-1111-20766",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G71-49204-3341-33870",
+      "prompt": "Create a Tremolo effect with the following parameters: 6 Hz Frequency, Sine Oscillator, 75% Output, 100% Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-56401-1111-21179",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G93-56401-2221-23675",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 229 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0.4:1.6 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-59404-1111-21026",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G83-59404-2212-22274",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Digital Type, 397 ms Time, 39%% Feedback Level, Off Ping-Pong, 100% Quality, 73 Hz Low Cut, 8.4 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-68509-1111-21200",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G93-68509-4413-39296",
+      "prompt": "Create a Distortion effect with the following parameters: 40% Drive, 40% Muffle, 0dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-45105-1111-21144",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G93-45105-3342-34872",
+      "prompt": "Create a Tremolo effect with the following parameters: 2.2 Hz Frequency, Sine Oscillator, 100% Output, 100% Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-54304-1111-20935",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G81-54304-3323-31543",
+      "prompt": "Create a Flanger effect with the following parameters: 85% Feedback, 80 ms Delay, 30% Depth, 100% Stereobasis, 16 Shape Sync, 4.4 Hz Rate, 100% Output, 50% Mix"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-58308-1111-21095",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G91-58308-3323-31703",
+      "prompt": "Create a Flanger effect with the following parameters: 85% Feedback, 80 ms Delay, 30% Depth, 100% Stereobasis, 16 Shape Sync, 4.4 Hz Rate, 100% Output, 50% Mix"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-51301-1111-21166",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G93-51301-3342-34894",
+      "prompt": "Create a Tremolo effect with the following parameters: 2.2 Hz Frequency, Sine Oscillator, 100% Output, 100% Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-64600-1111-21048",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G83-64600-3313-29784",
+      "prompt": "Create a Chorus effect with the following parameters: 25 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 45% Feedback Mix, 0.4 Modulation Rate, 3.5 Modulation Depth"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-40100-1111-21061",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G91-40100-3323-31669",
+      "prompt": "Create a Flanger effect with the following parameters: 85% Feedback, 80 ms Delay, 30% Depth, 100% Stereobasis, 16 Shape Sync, 4.4 Hz Rate, 100% Output, 50% Mix"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-67603-1111-20817",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G71-67603-4413-38913",
+      "prompt": "Create a Distortion effect with the following parameters: 40% Drive, 40% Muffle, 0dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-51301-1111-20698",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G63-51301-4422-40042",
+      "prompt": "Create a Overdrive effect with the following parameters: 5 o clock Shape, On Shaper, Off Limiter, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-62503-1111-20726",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G63-62503-2233-26342",
+      "prompt": "Create a Reverb effect with the following parameters: 0 Gating Amount, 10 ms Gating Attack, 10 ms Gating Release, 2522 ms Decay Time, 50% Decay Diffusion, Off Decay Hold, 24% Shape Size, 0 ms Shape Predelay, 100% Shape Width, 100% Shape Quality, 0 Shape Variation, 43 Hz EQ Bass Freq, - 7.8dB EQ Bass Gain, 5044 Hz EQ Treble Freq, -3.7dB EQ Treble Gain, 158 Hz Damping Bass Freq, 87% Damping Bass Amount, 8127 Hz Damping Treble Freq, 32% Damping Treble Amount, -inf Dry, 0dB Wet"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-74610-1111-20824",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G71-74610-2232-25816",
+      "prompt": "Create a Reverb effect with the following parameters: 160 m2 Size, 38 Damping, 0 ms Predelay, 38 Hi Damp, 217 Hz Low Cut, 0dB Early Ref, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-59404-1111-20714",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G63-59404-3332-32570",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-52302-1111-21011",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G83-52302-2233-26627",
+      "prompt": "Create a Reverb effect with the following parameters: 0 Gating Amount, 10 ms Gating Attack, 10 ms Gating Release, 2522 ms Decay Time, 50% Decay Diffusion, Off Decay Hold, 24% Shape Size, 0 ms Shape Predelay, 100% Shape Width, 100% Shape Quality, 0 Shape Variation, 43 Hz EQ Bass Freq, - 7.8dB EQ Bass Gain, 5044 Hz EQ Treble Freq, -3.7dB EQ Treble Gain, 158 Hz Damping Bass Freq, 87% Damping Bass Amount, 8127 Hz Damping Treble Freq, 32% Damping Treble Amount, -inf Dry, 0dB Wet"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-56211-1111-20617",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G61-56211-3323-31225",
+      "prompt": "Create a Flanger effect with the following parameters: 85% Feedback, 80 ms Delay, 30% Depth, 100% Stereobasis, 16 Shape Sync, 4.4 Hz Rate, 100% Output, 50% Mix"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-55400-1111-21178",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G93-55400-4412-38650",
+      "prompt": "Create a Distortion effect with the following parameters: 3 Shape, 90% Contour, 95% Drive, wracky Factory Preset, 0dB Input, -17dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-48108-1111-20601",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G61-48108-2221-23097",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 229 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0.4:1.6 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-52112-1111-21151",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G93-52112-3311-28639",
+      "prompt": "Create a Chorus effect with the following parameters: 3.75 ms Delay Time, 1.51 Hz Rate, On Spread, 43% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-63408-1111-21186",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G93-63408-3312-29298",
+      "prompt": "Create a Chorus effect with the following parameters: 10 ms Delay Time, 0.631 Hz Rate, Off Spread, 75% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-52112-1111-21073",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G91-52112-3333-33553",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-64409-1111-20953",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G81-64409-4423-40921",
+      "prompt": "Create a Overdrive effect with the following parameters: Off Speaker Simulation, magic OD Factory Preset, 3dB Bass, 6dB Mid, -3dB High, 0dB Input, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-55400-1111-20710",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G63-55400-3331-31942",
+      "prompt": "Create a Phaser effect with the following parameters: 10 Stages, 5680 Hz Upper, 0.302 Hz Rate, Off Sync, 55% Depth, Off Spread, 80% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-66411-1111-20721",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G63-66411-2213-22593",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 280 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 55% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-74610-1111-20902",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/EQ/G73-74610-1121-27142",
+      "prompt": "Create a EQ effect with the following parameters: On Bright, 8.8 Volume, 5 Low, 5 Mid, 5 High, 5 Tr Speed, 0 Tr Intens"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-42102-1111-20751",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G71-42102-2232-25743",
+      "prompt": "Create a Reverb effect with the following parameters: 160 m2 Size, 38 Damping, 0 ms Predelay, 38 Hi Damp, 217 Hz Low Cut, 0dB Early Ref, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-75611-1111-21137",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G91-75611-3331-32369",
+      "prompt": "Create a Phaser effect with the following parameters: 10 Stages, 5680 Hz Upper, 0.302 Hz Rate, Off Sync, 55% Depth, Off Spread, 80% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-74610-1111-21214",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G93-74610-2233-26830",
+      "prompt": "Create a Reverb effect with the following parameters: 0 Gating Amount, 10 ms Gating Attack, 10 ms Gating Release, 2522 ms Decay Time, 50% Decay Diffusion, Off Decay Hold, 24% Shape Size, 0 ms Shape Predelay, 100% Shape Width, 100% Shape Quality, 0 Shape Variation, 43 Hz EQ Bass Freq, - 7.8dB EQ Bass Gain, 5044 Hz EQ Treble Freq, -3.7dB EQ Treble Gain, 158 Hz Damping Bass Freq, 87% Damping Bass Amount, 8127 Hz Damping Treble Freq, 32% Damping Treble Amount, -inf Dry, 0dB Wet"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-66507-1111-21120",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G91-66507-3343-35472",
+      "prompt": "Create a Tremolo effect with the following parameters: 10.74 Hz Tremolo Rate, 166.7 Pan Mod Depth, 177.1 Wet Mix, 0 Dry Mix"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-51111-1111-20916",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G81-51111-4411-37764",
+      "prompt": "Create a Distortion effect with the following parameters: 2 o clock Gain, 1 o clock Tone, 10 o clock Edge, 12 o clock Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-57402-1111-21102",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G91-57402-3311-28590",
+      "prompt": "Create a Chorus effect with the following parameters: 3.75 ms Delay Time, 1.51 Hz Rate, On Spread, 43% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-41101-1111-20750",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G71-41101-3341-33854",
+      "prompt": "Create a Tremolo effect with the following parameters: 6 Hz Frequency, Sine Oscillator, 75% Output, 100% Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-46201-1111-20607",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G61-46201-3331-31839",
+      "prompt": "Create a Phaser effect with the following parameters: 10 Stages, 5680 Hz Upper, 0.302 Hz Rate, Off Sync, 55% Depth, Off Spread, 80% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-51111-1111-20682",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G63-51111-2223-24426",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 540 ms Delay Time, 100% Dry Mix, 40% Wet Mix, 0% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-70606-1111-21132",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G91-70606-3332-32988",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-70606-1111-20742",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G63-70606-2213-22614",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 280 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 55% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-54304-1111-20857",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G73-54304-3332-32713",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-57307-1111-21016",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G83-57307-4421-39736",
+      "prompt": "Create a Overdrive effect with the following parameters: 0dB Input, 325 Hz Low Cut, 600 Hz Mid Frequency, 0dB Mid Gain, 7 Drive, 7 Shape, 4 Tone, 5 kHz High Frequency, 1.4 High Q, -4dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-44104-1111-20675",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G63-44104-2211-21299",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 144 ms Time, 80% Feedback Level, Off Ping-Pong, 100% Quality, 20 Hz Low Cut, 6.22 kHz High Cut, 0.7:1.3 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-43103-1111-20596",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G61-43103-2213-22468",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 280 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 55% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-65601-1111-21205",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G93-65601-2211-21829",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 144 ms Time, 80% Feedback Level, Off Ping-Pong, 100% Quality, 20 Hz Low Cut, 6.22 kHz High Cut, 0.7:1.3 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-45105-1111-20988",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G83-45105-2231-25356",
+      "prompt": "Create a Reverb effect with the following parameters: 640 m2 Size, 18 Damping, 0 ms Predelay, 50 Hi Damp, 65 Hz Low Cut, 2dB Early Ref, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-57307-1111-21016",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G83-57307-2211-21640",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 144 ms Time, 80% Feedback Level, Off Ping-Pong, 100% Quality, 20 Hz Low Cut, 6.22 kHz High Cut, 0.7:1.3 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-51301-1111-20854",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/EQ/G73-51301-1121-27094",
+      "prompt": "Create a EQ effect with the following parameters: On Bright, 8.8 Volume, 5 Low, 5 Mid, 5 High, 5 Tr Speed, 0 Tr Intens"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-73609-1111-21135",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G91-73609-4413-39231",
+      "prompt": "Create a Distortion effect with the following parameters: 40% Drive, 40% Muffle, 0dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-50205-1111-20923",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G81-50205-4423-40891",
+      "prompt": "Create a Overdrive effect with the following parameters: Off Speaker Simulation, magic OD Factory Preset, 3dB Bass, 6dB Mid, -3dB High, 0dB Input, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-49204-1111-20610",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G61-49204-3332-32466",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-66411-1111-21033",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Vibrato/G83-66411-3352-36633",
+      "prompt": "Create a Vibrato effect with the following parameters: 10 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 1.8 Hz Modulation Rate, 1.6 ms Modulation Depth"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-68509-1111-21044",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G83-68509-4422-40388",
+      "prompt": "Create a Overdrive effect with the following parameters: 5 o clock Shape, On Shaper, Off Limiter, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-54209-1111-21083",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G91-54209-2221-23579",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 229 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0.4:1.6 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-57307-1111-20704",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G63-57307-3323-31312",
+      "prompt": "Create a Flanger effect with the following parameters: 85% Feedback, 80 ms Delay, 30% Depth, 100% Stereobasis, 16 Shape Sync, 4.4 Hz Rate, 100% Output, 50% Mix"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-46106-1111-21145",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G93-46106-2223-24889",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 540 ms Delay Time, 100% Dry Mix, 40% Wet Mix, 0% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-65506-1111-20885",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G73-65506-3332-32741",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-60310-1111-20941",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G81-60310-3323-31549",
+      "prompt": "Create a Flanger effect with the following parameters: 85% Feedback, 80 ms Delay, 30% Depth, 100% Stereobasis, 16 Shape Sync, 4.4 Hz Rate, 100% Output, 50% Mix"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-44104-1111-20909",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/EQ/G81-44104-1122-27773",
+      "prompt": "Create a EQ effect with the following parameters: 4x12 1 Model, 0 Drive, 0 Bias, 0dB Output, Mono Process"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-75611-1111-21137",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Vibrato/G91-75611-3351-36113",
+      "prompt": "Create a Vibrato effect with the following parameters: 4.57 ms Delay Time, 4.06 Hz Rate, Off Sync, 20% Depth, Off Spread, 0% Feedback, 0:2 Mix, 0.3dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-65410-1111-20954",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Vibrato/G81-65410-3351-35930",
+      "prompt": "Create a Vibrato effect with the following parameters: 4.57 ms Delay Time, 4.06 Hz Rate, Off Sync, 20% Depth, Off Spread, 0% Feedback, 0:2 Mix, 0.3dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-57212-1111-21086",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G91-57212-2232-26078",
+      "prompt": "Create a Reverb effect with the following parameters: 160 m2 Size, 38 Damping, 0 ms Predelay, 38 Hi Damp, 217 Hz Low Cut, 0dB Early Ref, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-64505-1111-20884",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G73-64505-4411-37732",
+      "prompt": "Create a Distortion effect with the following parameters: 2 o clock Gain, 1 o clock Tone, 10 o clock Edge, 12 o clock Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-47107-1111-20600",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G61-47107-2222-23720",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 998 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-42102-1111-20985",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G83-42102-3341-34089",
+      "prompt": "Create a Tremolo effect with the following parameters: 6 Hz Frequency, Sine Oscillator, 75% Output, 100% Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-50300-1111-21165",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G93-50300-2213-23037",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 280 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 55% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-62312-1111-20943",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G81-62312-4423-40911",
+      "prompt": "Create a Overdrive effect with the following parameters: Off Speaker Simulation, magic OD Factory Preset, 3dB Bass, 6dB Mid, -3dB High, 0dB Input, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-44104-1111-21143",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G93-44104-4412-38615",
+      "prompt": "Create a Distortion effect with the following parameters: 3 Shape, 90% Contour, 95% Drive, wracky Factory Preset, 0dB Input, -17dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-73609-1111-20979",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G81-73609-2232-25971",
+      "prompt": "Create a Reverb effect with the following parameters: 160 m2 Size, 38 Damping, 0 ms Predelay, 38 Hi Damp, 217 Hz Low Cut, 0dB Early Ref, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-52302-1111-20933",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G81-52302-3311-28421",
+      "prompt": "Create a Chorus effect with the following parameters: 3.75 ms Delay Time, 1.51 Hz Rate, On Spread, 43% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-67603-1111-20661",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/EQ/G61-67603-1121-26901",
+      "prompt": "Create a EQ effect with the following parameters: On Bright, 8.8 Volume, 5 Low, 5 Mid, 5 High, 5 Tr Speed, 0 Tr Intens"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-45105-1111-20910",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G81-45105-3321-30270",
+      "prompt": "Create a Flanger effect with the following parameters: 2.61 ms Delay Time, 0.303 Hz Rate, Off Sync, 90% Depth, Off Spread, -95% Feedback, 0.24:1.8 Mix, -3dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-50110-1111-20915",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Vibrato/G81-50110-3351-35891",
+      "prompt": "Create a Vibrato effect with the following parameters: 4.57 ms Delay Time, 4.06 Hz Rate, Off Sync, 20% Depth, Off Spread, 0% Feedback, 0:2 Mix, 0.3dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-60405-1111-20715",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G63-60405-4422-40059",
+      "prompt": "Create a Overdrive effect with the following parameters: 5 o clock Shape, On Shaper, Off Limiter, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-72608-1111-21134",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G91-72608-2221-23630",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 229 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0.4:1.6 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-60310-1111-20863",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G73-60310-3323-31471",
+      "prompt": "Create a Flanger effect with the following parameters: 85% Feedback, 80 ms Delay, 30% Depth, 100% Stereobasis, 16 Shape Sync, 4.4 Hz Rate, 100% Output, 50% Mix"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-62407-1111-20951",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G81-62407-3332-32807",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-48108-1111-20601",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G61-48108-2222-23721",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 998 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-50205-1111-20923",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G81-50205-3333-33403",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-64409-1111-20797",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/EQ/G71-64409-1121-27037",
+      "prompt": "Create a EQ effect with the following parameters: On Bright, 8.8 Volume, 5 Low, 5 Mid, 5 High, 5 Tr Speed, 0 Tr Intens"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-51301-1111-20620",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G61-51301-3321-29980",
+      "prompt": "Create a Flanger effect with the following parameters: 2.61 ms Delay Time, 0.303 Hz Rate, Off Sync, 90% Depth, Off Spread, -95% Feedback, 0.24:1.8 Mix, -3dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-66507-1111-21120",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G91-66507-2222-24240",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 998 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-67412-1111-20800",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G71-67412-3311-28288",
+      "prompt": "Create a Chorus effect with the following parameters: 3.75 ms Delay Time, 1.51 Hz Rate, On Spread, 43% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-76612-1111-20826",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G71-76612-3311-28314",
+      "prompt": "Create a Chorus effect with the following parameters: 3.75 ms Delay Time, 1.51 Hz Rate, On Spread, 43% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-59309-1111-20862",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G73-59309-3332-32718",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-47107-1111-20600",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G61-47107-2231-24968",
+      "prompt": "Create a Reverb effect with the following parameters: 640 m2 Size, 18 Damping, 0 ms Predelay, 50 Hi Damp, 65 Hz Low Cut, 2dB Early Ref, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-59404-1111-21104",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G91-59404-3322-31088",
+      "prompt": "Create a Flanger effect with the following parameters: 3.98 ms Delay Time, 1.02 Hz Rate, Off Sync, 55% Depth, Off Spread, 65% Feedback, 1:1 Mix, -0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-57307-1111-20938",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G81-57307-2213-22810",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 280 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 55% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-61406-1111-20638",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G61-61406-2232-25630",
+      "prompt": "Create a Reverb effect with the following parameters: 160 m2 Size, 38 Damping, 0 ms Predelay, 38 Hi Damp, 217 Hz Low Cut, 0dB Early Ref, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-61406-1111-21184",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G93-61406-3331-32416",
+      "prompt": "Create a Phaser effect with the following parameters: 10 Stages, 5680 Hz Upper, 0.302 Hz Rate, Off Sync, 55% Depth, Off Spread, 80% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-55210-1111-20850",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G73-55210-3341-33954",
+      "prompt": "Create a Tremolo effect with the following parameters: 6 Hz Frequency, Sine Oscillator, 75% Output, 100% Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-45105-1111-20988",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G83-45105-3333-33468",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-45200-1111-21074",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G91-45200-3322-31058",
+      "prompt": "Create a Flanger effect with the following parameters: 3.98 ms Delay Time, 1.02 Hz Rate, Off Sync, 55% Depth, Off Spread, 65% Feedback, 1:1 Mix, -0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-48108-1111-20679",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G63-48108-2213-22551",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 280 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 55% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-50110-1111-20603",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G61-50110-4421-39323",
+      "prompt": "Create a Overdrive effect with the following parameters: 0dB Input, 325 Hz Low Cut, 600 Hz Mid Frequency, 0dB Mid Gain, 7 Drive, 7 Shape, 4 Tone, 5 kHz High Frequency, 1.4 High Q, -4dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-67508-1111-21199",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G93-67508-2211-21823",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 144 ms Time, 80% Feedback Level, Off Ping-Pong, 100% Quality, 20 Hz Low Cut, 6.22 kHz High Cut, 0.7:1.3 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-46106-1111-20755",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/EQ/G71-46106-1122-27619",
+      "prompt": "Create a EQ effect with the following parameters: 4x12 1 Model, 0 Drive, 0 Bias, 0dB Output, Mono Process"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-40100-1111-21061",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G91-40100-4422-40405",
+      "prompt": "Create a Overdrive effect with the following parameters: 5 o clock Shape, On Shaper, Off Limiter, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-72608-1111-20744",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G63-72608-4413-38840",
+      "prompt": "Create a Distortion effect with the following parameters: 40% Drive, 40% Muffle, 0dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-47202-1111-20920",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G81-47202-4422-40264",
+      "prompt": "Create a Overdrive effect with the following parameters: 5 o clock Shape, On Shaper, Off Limiter, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-65410-1111-21032",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G83-65410-4412-38504",
+      "prompt": "Create a Distortion effect with the following parameters: 3 Shape, 90% Contour, 95% Drive, wracky Factory Preset, 0dB Input, -17dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-42102-1111-20985",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G83-42102-3342-34713",
+      "prompt": "Create a Tremolo effect with the following parameters: 2.2 Hz Frequency, Sine Oscillator, 100% Output, 100% Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-60405-1111-20637",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G61-60405-3322-30621",
+      "prompt": "Create a Flanger effect with the following parameters: 3.98 ms Delay Time, 1.02 Hz Rate, Off Sync, 55% Depth, Off Spread, 65% Feedback, 1:1 Mix, -0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-40100-1111-20671",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G63-40100-2232-25663",
+      "prompt": "Create a Reverb effect with the following parameters: 160 m2 Size, 38 Damping, 0 ms Predelay, 38 Hi Damp, 217 Hz Low Cut, 0dB Early Ref, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-71512-1111-20969",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G81-71512-3333-33449",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-64600-1111-20814",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G71-64600-3342-34542",
+      "prompt": "Create a Tremolo effect with the following parameters: 2.2 Hz Frequency, Sine Oscillator, 100% Output, 100% Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-55210-1111-20616",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G61-55210-3333-33096",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-53208-1111-21004",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G83-53208-2222-24124",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 998 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-58403-1111-20713",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G63-58403-2232-25705",
+      "prompt": "Create a Reverb effect with the following parameters: 160 m2 Size, 38 Damping, 0 ms Predelay, 38 Hi Damp, 217 Hz Low Cut, 0dB Early Ref, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-61406-1111-21106",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G91-61406-3342-34834",
+      "prompt": "Create a Tremolo effect with the following parameters: 2.2 Hz Frequency, Sine Oscillator, 100% Output, 100% Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-70511-1111-20656",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G61-70511-3321-30016",
+      "prompt": "Create a Flanger effect with the following parameters: 2.61 ms Delay Time, 0.303 Hz Rate, Off Sync, 90% Depth, Off Spread, -95% Feedback, 0.24:1.8 Mix, -3dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-65506-1111-20807",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G71-65506-3341-33911",
+      "prompt": "Create a Tremolo effect with the following parameters: 6 Hz Frequency, Sine Oscillator, 75% Output, 100% Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-54209-1111-21005",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G83-54209-3341-34109",
+      "prompt": "Create a Tremolo effect with the following parameters: 6 Hz Frequency, Sine Oscillator, 75% Output, 100% Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-47202-1111-21076",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G91-47202-3313-29812",
+      "prompt": "Create a Chorus effect with the following parameters: 25 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 45% Feedback Mix, 0.4 Modulation Rate, 3.5 Modulation Depth"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-55305-1111-21170",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G93-55305-4422-40514",
+      "prompt": "Create a Overdrive effect with the following parameters: 5 o clock Shape, On Shaper, Off Limiter, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-71607-1111-21055",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/EQ/G83-71607-1121-27295",
+      "prompt": "Create a EQ effect with the following parameters: On Bright, 8.8 Volume, 5 Low, 5 Mid, 5 High, 5 Tr Speed, 0 Tr Intens"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-52207-1111-20691",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G63-52207-4421-39411",
+      "prompt": "Create a Overdrive effect with the following parameters: 0dB Input, 325 Hz Low Cut, 600 Hz Mid Frequency, 0dB Mid Gain, 7 Drive, 7 Shape, 4 Tone, 5 kHz High Frequency, 1.4 High Q, -4dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-51206-1111-20846",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G73-51206-3331-32078",
+      "prompt": "Create a Phaser effect with the following parameters: 10 Stages, 5680 Hz Upper, 0.302 Hz Rate, Off Sync, 55% Depth, Off Spread, 80% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-57212-1111-21164",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G93-57212-2221-23660",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 229 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0.4:1.6 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-54304-1111-20701",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G63-54304-3312-28813",
+      "prompt": "Create a Chorus effect with the following parameters: 10 ms Delay Time, 0.631 Hz Rate, Off Spread, 75% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-61311-1111-20630",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G61-61311-4411-37478",
+      "prompt": "Create a Distortion effect with the following parameters: 2 o clock Gain, 1 o clock Tone, 10 o clock Edge, 12 o clock Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-41101-1111-20750",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G71-41101-2221-23246",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 229 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0.4:1.6 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-61502-1111-21115",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G91-61502-2232-26107",
+      "prompt": "Create a Reverb effect with the following parameters: 160 m2 Size, 38 Damping, 0 ms Predelay, 38 Hi Damp, 217 Hz Low Cut, 0dB Early Ref, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-69510-1111-20733",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G63-69510-4412-38205",
+      "prompt": "Create a Distortion effect with the following parameters: 3 Shape, 90% Contour, 95% Drive, wracky Factory Preset, 0dB Input, -17dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-59500-1111-21113",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G91-59500-3312-29225",
+      "prompt": "Create a Chorus effect with the following parameters: 10 ms Delay Time, 0.631 Hz Rate, Off Spread, 75% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-58308-1111-21095",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G91-58308-3313-29831",
+      "prompt": "Create a Chorus effect with the following parameters: 25 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 45% Feedback Mix, 0.4 Modulation Rate, 3.5 Modulation Depth"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-56211-1111-20851",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G73-56211-3343-35203",
+      "prompt": "Create a Tremolo effect with the following parameters: 10.74 Hz Tremolo Rate, 166.7 Pan Mod Depth, 177.1 Wet Mix, 0 Dry Mix"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-48203-1111-21155",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G93-48203-3313-29891",
+      "prompt": "Create a Chorus effect with the following parameters: 25 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 45% Feedback Mix, 0.4 Modulation Rate, 3.5 Modulation Depth"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-57212-1111-20774",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G71-57212-3341-33878",
+      "prompt": "Create a Tremolo effect with the following parameters: 6 Hz Frequency, Sine Oscillator, 75% Output, 100% Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-59404-1111-20636",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G61-59404-3321-29996",
+      "prompt": "Create a Flanger effect with the following parameters: 2.61 ms Delay Time, 0.303 Hz Rate, Off Sync, 90% Depth, Off Spread, -95% Feedback, 0.24:1.8 Mix, -3dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-72608-1111-20978",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G81-72608-4411-37826",
+      "prompt": "Create a Distortion effect with the following parameters: 2 o clock Gain, 1 o clock Tone, 10 o clock Edge, 12 o clock Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-74610-1111-20746",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G63-74610-3332-32602",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-62312-1111-20787",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G71-62312-4423-40755",
+      "prompt": "Create a Overdrive effect with the following parameters: Off Speaker Simulation, magic OD Factory Preset, 3dB Bass, 6dB Mid, -3dB High, 0dB Input, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-51111-1111-21150",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G93-51111-3323-31758",
+      "prompt": "Create a Flanger effect with the following parameters: 85% Feedback, 80 ms Delay, 30% Depth, 100% Stereobasis, 16 Shape Sync, 4.4 Hz Rate, 100% Output, 50% Mix"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-59404-1111-20948",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G81-59404-4411-37796",
+      "prompt": "Create a Distortion effect with the following parameters: 2 o clock Gain, 1 o clock Tone, 10 o clock Edge, 12 o clock Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-61502-1111-20803",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G71-61502-2212-22051",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Digital Type, 397 ms Time, 39%% Feedback Level, Off Ping-Pong, 100% Quality, 73 Hz Low Cut, 8.4 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-69605-1111-21053",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G83-69605-3331-32285",
+      "prompt": "Create a Phaser effect with the following parameters: 10 Stages, 5680 Hz Upper, 0.302 Hz Rate, Off Sync, 55% Depth, Off Spread, 80% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-57212-1111-20618",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G61-57212-3343-34970",
+      "prompt": "Create a Tremolo effect with the following parameters: 10.74 Hz Tremolo Rate, 166.7 Pan Mod Depth, 177.1 Wet Mix, 0 Dry Mix"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-72608-1111-21134",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G91-72608-2231-25502",
+      "prompt": "Create a Reverb effect with the following parameters: 640 m2 Size, 18 Damping, 0 ms Predelay, 50 Hi Damp, 65 Hz Low Cut, 2dB Early Ref, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-46106-1111-20911",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G81-46106-3333-33391",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-67412-1111-20956",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G81-67412-3343-35308",
+      "prompt": "Create a Tremolo effect with the following parameters: 10.74 Hz Tremolo Rate, 166.7 Pan Mod Depth, 177.1 Wet Mix, 0 Dry Mix"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-56211-1111-21007",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G83-56211-2232-25999",
+      "prompt": "Create a Reverb effect with the following parameters: 160 m2 Size, 38 Damping, 0 ms Predelay, 38 Hi Damp, 217 Hz Low Cut, 0dB Early Ref, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-49204-1111-20610",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G61-49204-2231-24978",
+      "prompt": "Create a Reverb effect with the following parameters: 640 m2 Size, 18 Damping, 0 ms Predelay, 50 Hi Damp, 65 Hz Low Cut, 2dB Early Ref, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-65506-1111-20885",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G73-65506-2221-23381",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 229 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0.4:1.6 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-69605-1111-21209",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G93-69605-4422-40553",
+      "prompt": "Create a Overdrive effect with the following parameters: 5 o clock Shape, On Shaper, Off Limiter, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-61311-1111-21098",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/EQ/G91-61311-1121-27338",
+      "prompt": "Create a EQ effect with the following parameters: On Bright, 8.8 Volume, 5 Low, 5 Mid, 5 High, 5 Tr Speed, 0 Tr Intens"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-65506-1111-20963",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G81-65506-2212-22211",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Digital Type, 397 ms Time, 39%% Feedback Level, Off Ping-Pong, 100% Quality, 73 Hz Low Cut, 8.4 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-52207-1111-21081",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/EQ/G91-52207-1122-27945",
+      "prompt": "Create a EQ effect with the following parameters: 4x12 1 Model, 0 Drive, 0 Bias, 0dB Output, Mono Process"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-76612-1111-21060",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G83-76612-4411-37908",
+      "prompt": "Create a Distortion effect with the following parameters: 2 o clock Gain, 1 o clock Tone, 10 o clock Edge, 12 o clock Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-60310-1111-20629",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G61-60310-4421-39349",
+      "prompt": "Create a Overdrive effect with the following parameters: 0dB Input, 325 Hz Low Cut, 600 Hz Mid Frequency, 0dB Mid Gain, 7 Drive, 7 Shape, 4 Tone, 5 kHz High Frequency, 1.4 High Q, -4dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-57212-1111-20852",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G73-57212-2213-22724",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 280 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 55% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-47202-1111-20998",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G83-47202-3312-29110",
+      "prompt": "Create a Chorus effect with the following parameters: 10 ms Delay Time, 0.631 Hz Rate, Off Spread, 75% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-43103-1111-21064",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G91-43103-3331-32296",
+      "prompt": "Create a Phaser effect with the following parameters: 10 Stages, 5680 Hz Upper, 0.302 Hz Rate, Off Sync, 55% Depth, Off Spread, 80% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-56401-1111-20633",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G61-56401-3323-31241",
+      "prompt": "Create a Flanger effect with the following parameters: 85% Feedback, 80 ms Delay, 30% Depth, 100% Stereobasis, 16 Shape Sync, 4.4 Hz Rate, 100% Output, 50% Mix"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-54209-1111-20849",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G73-54209-4422-40193",
+      "prompt": "Create a Overdrive effect with the following parameters: 5 o clock Shape, On Shaper, Off Limiter, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-68509-1111-20654",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G61-68509-3331-31886",
+      "prompt": "Create a Phaser effect with the following parameters: 10 Stages, 5680 Hz Upper, 0.302 Hz Rate, Off Sync, 55% Depth, Off Spread, 80% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-72608-1111-20900",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G73-72608-3322-30884",
+      "prompt": "Create a Flanger effect with the following parameters: 3.98 ms Delay Time, 1.02 Hz Rate, Off Sync, 55% Depth, Off Spread, 65% Feedback, 1:1 Mix, -0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-75611-1111-20747",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G63-75611-4421-39467",
+      "prompt": "Create a Overdrive effect with the following parameters: 0dB Input, 325 Hz Low Cut, 600 Hz Mid Frequency, 0dB Mid Gain, 7 Drive, 7 Shape, 4 Tone, 5 kHz High Frequency, 1.4 High Q, -4dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-69510-1111-21201",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Vibrato/G93-69510-3353-37425",
+      "prompt": "Create a Vibrato effect with the following parameters: 7 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 6.5 Hz Modulation Rate, 0.2 ms Modulation Depth"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-65601-1111-20815",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Vibrato/G71-65601-3351-35791",
+      "prompt": "Create a Vibrato effect with the following parameters: 4.57 ms Delay Time, 4.06 Hz Rate, Off Sync, 20% Depth, Off Spread, 0% Feedback, 0:2 Mix, 0.3dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-51206-1111-21080",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G91-51206-3311-28568",
+      "prompt": "Create a Chorus effect with the following parameters: 3.75 ms Delay Time, 1.51 Hz Rate, On Spread, 43% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-70511-1111-20656",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G61-70511-4413-38752",
+      "prompt": "Create a Distortion effect with the following parameters: 40% Drive, 40% Muffle, 0dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-62312-1111-21099",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G91-62312-2211-21723",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 144 ms Time, 80% Feedback Level, Off Ping-Pong, 100% Quality, 20 Hz Low Cut, 6.22 kHz High Cut, 0.7:1.3 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-65506-1111-20885",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G73-65506-2232-25877",
+      "prompt": "Create a Reverb effect with the following parameters: 160 m2 Size, 38 Damping, 0 ms Predelay, 38 Hi Damp, 217 Hz Low Cut, 0dB Early Ref, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-69510-1111-20889",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/EQ/G73-69510-1122-27753",
+      "prompt": "Create a EQ effect with the following parameters: 4x12 1 Model, 0 Drive, 0 Bias, 0dB Output, Mono Process"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-62407-1111-21107",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G91-62407-3322-31091",
+      "prompt": "Create a Flanger effect with the following parameters: 3.98 ms Delay Time, 1.02 Hz Rate, Off Sync, 55% Depth, Off Spread, 65% Feedback, 1:1 Mix, -0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-60501-1111-21036",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G83-60501-4421-39756",
+      "prompt": "Create a Overdrive effect with the following parameters: 0dB Input, 325 Hz Low Cut, 600 Hz Mid Frequency, 0dB Mid Gain, 7 Drive, 7 Shape, 4 Tone, 5 kHz High Frequency, 1.4 High Q, -4dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-60310-1111-21019",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G83-60310-3312-29131",
+      "prompt": "Create a Chorus effect with the following parameters: 10 ms Delay Time, 0.631 Hz Rate, Off Spread, 75% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-60501-1111-20802",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Vibrato/G71-60501-3352-36402",
+      "prompt": "Create a Vibrato effect with the following parameters: 10 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 1.8 Hz Modulation Rate, 1.6 ms Modulation Depth"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-50110-1111-21071",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G91-50110-2212-22319",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Digital Type, 397 ms Time, 39%% Feedback Level, Off Ping-Pong, 100% Quality, 73 Hz Low Cut, 8.4 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-53303-1111-20934",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G81-53303-2232-25926",
+      "prompt": "Create a Reverb effect with the following parameters: 160 m2 Size, 38 Damping, 0 ms Predelay, 38 Hi Damp, 217 Hz Low Cut, 0dB Early Ref, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-71512-1111-20735",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G63-71512-2212-21983",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Digital Type, 397 ms Time, 39%% Feedback Level, Off Ping-Pong, 100% Quality, 73 Hz Low Cut, 8.4 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-51111-1111-20994",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G83-51111-4422-40338",
+      "prompt": "Create a Overdrive effect with the following parameters: 5 o clock Shape, On Shaper, Off Limiter, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-63408-1111-20718",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G63-63408-2223-24462",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 540 ms Delay Time, 100% Dry Mix, 40% Wet Mix, 0% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-66602-1111-20894",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G73-66602-3313-29630",
+      "prompt": "Create a Chorus effect with the following parameters: 25 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 45% Feedback Mix, 0.4 Modulation Rate, 3.5 Modulation Depth"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-47107-1111-20756",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G71-47107-3331-31988",
+      "prompt": "Create a Phaser effect with the following parameters: 10 Stages, 5680 Hz Upper, 0.302 Hz Rate, Off Sync, 55% Depth, Off Spread, 80% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-52302-1111-20855",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G73-52302-4412-38327",
+      "prompt": "Create a Distortion effect with the following parameters: 3 Shape, 90% Contour, 95% Drive, wracky Factory Preset, 0dB Input, -17dB Output"
+    }
+  ],
+  "validation": [
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-66507-1111-20808",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G71-66507-3331-32040",
+      "prompt": "Create a Phaser effect with the following parameters: 10 Stages, 5680 Hz Upper, 0.302 Hz Rate, Off Sync, 55% Depth, Off Spread, 80% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-51206-1111-20846",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G73-51206-2223-24590",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 540 ms Delay Time, 100% Dry Mix, 40% Wet Mix, 0% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-70606-1111-20898",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Chorus/G73-70606-3313-29634",
+      "prompt": "Create a Chorus effect with the following parameters: 25 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 45% Feedback Mix, 0.4 Modulation Rate, 3.5 Modulation Depth"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-62503-1111-20882",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G73-62503-2231-25250",
+      "prompt": "Create a Reverb effect with the following parameters: 640 m2 Size, 18 Damping, 0 ms Predelay, 50 Hi Damp, 65 Hz Low Cut, 2dB Early Ref, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-65506-1111-20651",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G61-65506-2231-25019",
+      "prompt": "Create a Reverb effect with the following parameters: 640 m2 Size, 18 Damping, 0 ms Predelay, 50 Hi Damp, 65 Hz Low Cut, 2dB Early Ref, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-49204-1111-21078",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G91-49204-3333-33558",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-59500-1111-20723",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/EQ/G63-59500-1121-26963",
+      "prompt": "Create a EQ effect with the following parameters: On Bright, 8.8 Volume, 5 Low, 5 Mid, 5 High, 5 Tr Speed, 0 Tr Intens"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-46201-1111-20841",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G73-46201-3331-32073",
+      "prompt": "Create a Phaser effect with the following parameters: 10 Stages, 5680 Hz Upper, 0.302 Hz Rate, Off Sync, 55% Depth, Off Spread, 80% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-45200-1111-20762",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G71-45200-3333-33242",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-60405-1111-21183",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Vibrato/G93-60405-3352-36783",
+      "prompt": "Create a Vibrato effect with the following parameters: 10 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 1.8 Hz Modulation Rate, 1.6 ms Modulation Depth"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-66602-1111-20816",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Vibrato/G71-66602-3351-35792",
+      "prompt": "Create a Vibrato effect with the following parameters: 4.57 ms Delay Time, 4.06 Hz Rate, Off Sync, 20% Depth, Off Spread, 0% Feedback, 0:2 Mix, 0.3dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-60405-1111-20637",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G61-60405-3341-33741",
+      "prompt": "Create a Tremolo effect with the following parameters: 6 Hz Frequency, Sine Oscillator, 75% Output, 100% Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-51206-1111-21002",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/FeedbackDelay/G83-51206-2213-22874",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 280 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 55% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G91-64505-1111-21118",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Reverb/G91-64505-2231-25486",
+      "prompt": "Create a Reverb effect with the following parameters: 640 m2 Size, 18 Damping, 0 ms Predelay, 50 Hi Damp, 65 Hz Low Cut, 2dB Early Ref, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-48203-1111-20609",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G61-48203-4412-38081",
+      "prompt": "Create a Distortion effect with the following parameters: 3 Shape, 90% Contour, 95% Drive, wracky Factory Preset, 0dB Input, -17dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-70511-1111-21202",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G93-70511-4423-41170",
+      "prompt": "Create a Overdrive effect with the following parameters: Off Speaker Simulation, magic OD Factory Preset, 3dB Bass, 6dB Mid, -3dB High, 0dB Input, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G73-60310-1111-20863",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G73-60310-3322-30847",
+      "prompt": "Create a Flanger effect with the following parameters: 3.98 ms Delay Time, 1.02 Hz Rate, Off Sync, 55% Depth, Off Spread, 65% Feedback, 1:1 Mix, -0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G93-66411-1111-21189",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Vibrato/G93-66411-3351-36165",
+      "prompt": "Create a Vibrato effect with the following parameters: 4.57 ms Delay Time, 4.06 Hz Rate, Off Sync, 20% Depth, Off Spread, 0% Feedback, 0:2 Mix, 0.3dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-66602-1111-20738",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G63-66602-2223-24482",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 540 ms Delay Time, 100% Dry Mix, 40% Wet Mix, 0% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-72608-1111-20744",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G63-72608-4422-40088",
+      "prompt": "Create a Overdrive effect with the following parameters: 5 o clock Shape, On Shaper, Off Limiter, -10dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-68509-1111-20732",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G63-68509-2223-24476",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 540 ms Delay Time, 100% Dry Mix, 40% Wet Mix, 0% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G63-49204-1111-20688",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Distortion/G63-49204-4412-38160",
+      "prompt": "Create a Distortion effect with the following parameters: 3 Shape, 90% Contour, 95% Drive, wracky Factory Preset, 0dB Input, -17dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-54209-1111-21005",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Overdrive/G83-54209-4421-39725",
+      "prompt": "Create a Overdrive effect with the following parameters: 0dB Input, 325 Hz Low Cut, 600 Hz Mid Frequency, 0dB Mid Gain, 7 Drive, 7 Shape, 4 Tone, 5 kHz High Frequency, 1.4 High Q, -4dB Output"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-46106-1111-20755",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Tremolo/G71-46106-3341-33859",
+      "prompt": "Create a Tremolo effect with the following parameters: 6 Hz Frequency, Sine Oscillator, 75% Output, 100% Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G81-48203-1111-20921",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G81-48203-3333-33401",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-62503-1111-20804",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Flanger/G71-62503-3321-30164",
+      "prompt": "Create a Flanger effect with the following parameters: 2.61 ms Delay Time, 0.303 Hz Rate, Off Sync, 90% Depth, Off Spread, -95% Feedback, 0.24:1.8 Mix, -3dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G61-46201-1111-20607",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G61-46201-3333-33087",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-60501-1111-21036",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/EQ/G83-60501-1122-27900",
+      "prompt": "Create a EQ effect with the following parameters: 4x12 1 Model, 0 Drive, 0 Bias, 0dB Output, Mono Process"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G83-55210-1111-21006",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/SlapbackDelay/G83-55210-2222-24126",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 998 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/NoFX/G71-65506-1111-20807",
+      "y_path": "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre polyphon/Samples/Phaser/G71-65506-3333-33287",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    }
+  ]
+}
