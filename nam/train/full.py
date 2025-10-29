@@ -74,7 +74,7 @@ def _plot(
                 window_end=window_end,
             )
             if i > 4:
-                break
+                return
         return
     with _torch.no_grad():
         tx = len(ds.x) / 48_000
@@ -240,12 +240,14 @@ def main(
         #     show=False,
         # )
         # _plot(model, dataset_validation, show=not no_show)
-        _plot(model, dataset_validation, show=not no_show)
-        
-        _chunk_and_plot_1_dp(
-            model, dataset_train,
-            dataset_train.ny, savefig=_Path(outdir, "comparison.png")
+        _plot(model, dataset_validation, savefig=_Path(outdir, "val-comparison.png"),
+              show=True
         )
+        
+        # _chunk_and_plot_1_dp(
+        #     model, dataset_train,
+        #     dataset_train.ny, savefig=_Path(outdir, "comparison.png")
+        # )
 
         csv_dir = trainer.logger.log_dir 
         df = pd.read_csv(f"{csv_dir}/metrics.csv")
