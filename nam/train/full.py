@@ -32,6 +32,7 @@ from nam.train import lightning_module as _lightning_module
 from nam.util import filter_warnings as _filter_warnings
 
 from nam.models.prompt_wavenet import PromptWaveNet as _PromptWaveNet
+from nam.prompt_dataset import ConcatPromptDataset as _ConcatPromptDataset
 
 _torch.manual_seed(0)
 
@@ -53,7 +54,7 @@ def _plot(
     window_start: _Optional[int] = None,
     window_end: _Optional[int] = None,
 ):
-    if isinstance(ds, _ConcatDataset):
+    if isinstance(ds, _ConcatDataset) or isinstance(ds, _ConcatPromptDataset):
 
         def extend_savefig(i, savefig):
             if savefig is None:
@@ -72,6 +73,8 @@ def _plot(
                 window_start=window_start,
                 window_end=window_end,
             )
+            if i > 4:
+                break
         return
     with _torch.no_grad():
         tx = len(ds.x) / 48_000
@@ -236,6 +239,7 @@ def main(
         #     window_end=110_000,
         #     show=False,
         # )
+        # _plot(model, dataset_validation, show=not no_show)
         _plot(model, dataset_validation, show=not no_show)
         
         _chunk_and_plot_1_dp(

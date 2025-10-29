@@ -873,7 +873,6 @@ class ConcatDataset(AbstractDataset, _InitializableFromConfig):
 
 def _init_prompt_dataset(config):
     from .prompt_dataset import PromptDataset
-    print(config)
     return PromptDataset.init_from_config(config)
 
 _dataset_init_registry = {"dataset": Dataset.init_from_config, "prompt_dataset": _init_prompt_dataset}

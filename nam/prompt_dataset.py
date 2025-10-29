@@ -1,7 +1,7 @@
 import os
 from dotenv import load_dotenv
 
-from nam.data import Dataset, AbstractDataset, _DEFAULT_REQUIRE_INPUT_PRE_SILENCE, DataError
+from nam.data import Dataset, ConcatDataset, _DEFAULT_REQUIRE_INPUT_PRE_SILENCE, DataError
 import torch as _torch
 from huggingface_hub import login
 from sentence_transformers import SentenceTransformer, models, losses, InputExample
@@ -58,11 +58,11 @@ class PromptDataset(Dataset):
         if self.prompt_emb.shape[0] != embedding_size:
             raise DataError("Embedding size mismatch!")
     
-        print(f"nx: {nx}")
-        print(f"nx: {ny}")
-        print(f"x shape: {x.shape}, mean: {x.mean().item()}")
-        print(f"y shape: {y.shape}, mean: {y.mean().item()}")
-        print(f"Prompt embedding shape: {self._prompt_emb.shape}")
+        # print(f"nx: {nx}")
+        # print(f"nx: {ny}")
+        # print(f"x shape: {x.shape}, mean: {x.mean().item()}")
+        # print(f"y shape: {y.shape}, mean: {y.mean().item()}")
+        # print(f"Prompt embedding shape: {self._prompt_emb.shape}")
 
     @property
     def prompt(self):
@@ -110,8 +110,19 @@ class PromptDataset(Dataset):
     @classmethod
     def init_from_config(cls, config):
         parsed_conf = cls.parse_config(config)
-        print("This is the parsed conf: ", parsed_conf)
         return cls(**parsed_conf)
+    
+
+class ConcatPromptDataset(ConcatDataset):
+    def __init__(self, datasets: _Sequence[PromptDataset], flatten=True):
+        if flatten:
+            datasets = self._flatten_datasets(datasets)
+        self._datasets = datasets
+        self._lookup = self._make_lookup()
+
+    def __getitem__(self, idx: int) -> _Tuple[_torch.Tensor, _torch.Tensor, _torch.Tensor]:
+        i, j = self._lookup[idx]
+        return self._datasets[i][j]
     
 # register_dataset_initializer("prompt_dataset", PromptDataset.init_from_config)
 
