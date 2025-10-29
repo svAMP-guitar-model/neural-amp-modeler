@@ -73,7 +73,7 @@ def _plot(
                 window_start=window_start,
                 window_end=window_end,
             )
-            if i > 4:
+            if i > 3:
                 return
         return
     with _torch.no_grad():
@@ -98,11 +98,29 @@ def _plot(
 
     _plt.figure(figsize=(16, 5))
     _plt.plot(output[window_start:window_end], label="Prediction")
-    _plt.plot(ds.y[window_start:window_end], linestyle="--", label="Target")
+    _plt.plot(ds.y[window_start:window_end], linestyle="--", label="Target", alpha=0.5)
     nrmse = _rms(_torch.Tensor(output) - ds.y) / _rms(ds.y)
     esr = nrmse**2
     _plt.title(f"ESR={esr:.3f}")
     _plt.legend()
+    # Add prompt text on the side if available
+    prompt_text = getattr(ds, "prompt", None)
+    if prompt_text:
+        max_chars = 120
+        if len(prompt_text) > max_chars:
+            prompt_text = prompt_text[: max_chars - 1] + "\u2026"
+        ax = _plt.gca()
+        ax.text(
+            0.995,
+            0.5,
+            prompt_text,
+            transform=ax.transAxes,
+            va="center",
+            ha="right",
+            rotation=90,
+            fontsize=8,
+            bbox={"boxstyle": "round", "facecolor": "white", "alpha": 0.7, "edgecolor": "none"},
+        )
     if savefig is not None:
         _plt.savefig(savefig)
     if show:
@@ -240,23 +258,28 @@ def main(
         #     show=False,
         # )
         # _plot(model, dataset_validation, show=not no_show)
-        _plot(model, dataset_validation, savefig=_Path(outdir, "val-comparison.png"),
-              show=True
-        )
         
         # _chunk_and_plot_1_dp(
         #     model, dataset_train,
         #     dataset_train.ny, savefig=_Path(outdir, "comparison.png")
         # )
 
+        _plot(model, dataset_validation, savefig=_Path(outdir, "val-comparison.png"),
+              show=True
+        )
+
         csv_dir = trainer.logger.log_dir 
         df = pd.read_csv(f"{csv_dir}/metrics.csv")
         df.groupby("epoch")["train_loss"].last().plot(label="train")
         df.groupby("epoch")["val_loss"].last().plot(label="val")
-        plt.legend(); plt.xlabel("epoch"); plt.ylabel("loss"); plt.show()
+        plt.legend()
+        plt.xlabel("epoch")
+        plt.ylabel("loss")
+        plt.savefig(_Path(outdir, "loss_curve.png"))
+        plt.show()
 
     # Export!
-    model.net.export(outdir)
+    # model.net.export(outdir)
 
     # Tear down the datasets
     train_dataloader.dataset.teardown()
@@ -288,13 +311,31 @@ def _chunk_and_plot_1_dp(model, dataset, ny, savefig):
 
     _plt.figure(figsize=(16, 5))
     _plt.plot(output_waves, label="Prediction")
-    _plt.plot(ground_waves, linestyle="--", label="Target")
+    _plt.plot(ground_waves, linestyle="--", label="Target", alpha=0.5)
 
     nrmse = _rms(output_waves - ground_waves) / _rms(ground_waves)
     esr = nrmse**2
     _plt.title(f"ESR={esr:.3f}")
 
     _plt.legend()
+    # Add prompt text on the side if available
+    prompt_text = getattr(dataset, "prompt", None)
+    if prompt_text:
+        max_chars = 120
+        if len(prompt_text) > max_chars:
+            prompt_text = prompt_text[: max_chars - 1] + "\u2026"
+        ax = _plt.gca()
+        ax.text(
+            0.995,
+            0.5,
+            prompt_text,
+            transform=ax.transAxes,
+            va="center",
+            ha="right",
+            rotation=90,
+            fontsize=8,
+            bbox={"boxstyle": "round", "facecolor": "white", "alpha": 0.7, "edgecolor": "none"},
+        )
     if savefig is not None:
         _plt.savefig(savefig)
     _plt.show()
