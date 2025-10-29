@@ -23,7 +23,7 @@ splits = {
 
 
 def _resolve_path(p: str) -> str:
-    return os.path.join(wav_data_repo_path, p)
+    return os.path.join(wav_data_repo_path, p) + ".wav"
 
 
 def _make_entries(df: pd.DataFrame) -> list:
