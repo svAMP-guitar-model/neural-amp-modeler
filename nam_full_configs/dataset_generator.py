@@ -10,7 +10,7 @@ wav_data_repo_path = root_repo + "IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/
 wav_csv_path = root_repo + "audio_effects_poly_mapping.csv"
 
 output_dataset_file_path = "data/multi_prompt_dataset.json"
-num_examples = 300 
+num_examples = 400 
 
 # vars for model and ds gen
 embedding_size = 768

@@ -1360,9 +1360,7 @@
       "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G73-52302-1111-20855.wav",
       "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Distortion/G73-52302-4412-38327.wav",
       "prompt": "Create a Distortion effect with the following parameters: 3 Shape, 90% Contour, 95% Drive, wracky Factory Preset, 0dB Input, -17dB Output"
-    }
-  ],
-  "validation": [
+    },
     {
       "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G71-66507-1111-20808.wav",
       "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Phaser/G71-66507-3331-32040.wav",
@@ -1512,6 +1510,508 @@
       "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G71-65506-1111-20807.wav",
       "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Phaser/G71-65506-3333-33287.wav",
       "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G83-41101-1111-20984.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/EQ/G83-41101-1122-27848.wav",
+      "prompt": "Create a EQ effect with the following parameters: 4x12 1 Model, 0 Drive, 0 Bias, 0dB Output, Mono Process"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G71-45105-1111-20754.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Vibrato/G71-45105-3352-36354.wav",
+      "prompt": "Create a Vibrato effect with the following parameters: 10 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 1.8 Hz Modulation Rate, 1.6 ms Modulation Depth"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G83-73609-1111-21057.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Overdrive/G83-73609-4422-40401.wav",
+      "prompt": "Create a Overdrive effect with the following parameters: 5 o clock Shape, On Shaper, Off Limiter, -10dB Output"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G61-43103-1111-20596.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Reverb/G61-43103-2232-25588.wav",
+      "prompt": "Create a Reverb effect with the following parameters: 160 m2 Size, 38 Damping, 0 ms Predelay, 38 Hi Damp, 217 Hz Low Cut, 0dB Early Ref, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G63-63408-1111-20718.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Flanger/G63-63408-3323-31326.wav",
+      "prompt": "Create a Flanger effect with the following parameters: 85% Feedback, 80 ms Delay, 30% Depth, 100% Stereobasis, 16 Shape Sync, 4.4 Hz Rate, 100% Output, 50% Mix"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G93-65506-1111-21197.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Reverb/G93-65506-2233-26813.wav",
+      "prompt": "Create a Reverb effect with the following parameters: 0 Gating Amount, 10 ms Gating Attack, 10 ms Gating Release, 2522 ms Decay Time, 50% Decay Diffusion, Off Decay Hold, 24% Shape Size, 0 ms Shape Predelay, 100% Shape Width, 100% Shape Quality, 0 Shape Variation, 43 Hz EQ Bass Freq, - 7.8dB EQ Bass Gain, 5044 Hz EQ Treble Freq, -3.7dB EQ Treble Gain, 158 Hz Damping Bass Freq, 87% Damping Bass Amount, 8127 Hz Damping Treble Freq, 32% Damping Treble Amount, -inf Dry, 0dB Wet"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G83-46106-1111-20989.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/SlapbackDelay/G83-46106-2223-24733.wav",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 540 ms Delay Time, 100% Dry Mix, 40% Wet Mix, 0% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G73-65506-1111-20885.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Chorus/G73-65506-3312-28997.wav",
+      "prompt": "Create a Chorus effect with the following parameters: 10 ms Delay Time, 0.631 Hz Rate, Off Spread, 75% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G73-53303-1111-20856.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Distortion/G73-53303-4413-38952.wav",
+      "prompt": "Create a Distortion effect with the following parameters: 40% Drive, 40% Muffle, 0dB Output"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G91-71607-1111-21133.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Reverb/G91-71607-2233-26749.wav",
+      "prompt": "Create a Reverb effect with the following parameters: 0 Gating Amount, 10 ms Gating Attack, 10 ms Gating Release, 2522 ms Decay Time, 50% Decay Diffusion, Off Decay Hold, 24% Shape Size, 0 ms Shape Predelay, 100% Shape Width, 100% Shape Quality, 0 Shape Variation, 43 Hz EQ Bass Freq, - 7.8dB EQ Bass Gain, 5044 Hz EQ Treble Freq, -3.7dB EQ Treble Gain, 158 Hz Damping Bass Freq, 87% Damping Bass Amount, 8127 Hz Damping Treble Freq, 32% Damping Treble Amount, -inf Dry, 0dB Wet"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G61-54304-1111-20623.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Vibrato/G61-54304-3353-36847.wav",
+      "prompt": "Create a Vibrato effect with the following parameters: 7 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 6.5 Hz Modulation Rate, 0.2 ms Modulation Depth"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G81-61406-1111-20950.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/SlapbackDelay/G81-61406-2223-24694.wav",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 540 ms Delay Time, 100% Dry Mix, 40% Wet Mix, 0% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G73-55210-1111-20850.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Phaser/G73-55210-3331-32082.wav",
+      "prompt": "Create a Phaser effect with the following parameters: 10 Stages, 5680 Hz Upper, 0.302 Hz Rate, Off Sync, 55% Depth, Off Spread, 80% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G61-48108-1111-20601.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Reverb/G61-48108-2231-24969.wav",
+      "prompt": "Create a Reverb effect with the following parameters: 640 m2 Size, 18 Damping, 0 ms Predelay, 50 Hi Damp, 65 Hz Low Cut, 2dB Early Ref, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G73-65506-1111-20885.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Phaser/G73-65506-3333-33365.wav",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G91-69605-1111-21131.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Tremolo/G91-69605-3342-34859.wav",
+      "prompt": "Create a Tremolo effect with the following parameters: 2.2 Hz Frequency, Sine Oscillator, 100% Output, 100% Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G63-67603-1111-20739.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/FeedbackDelay/G63-67603-2211-21363.wav",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 144 ms Time, 80% Feedback Level, Off Ping-Pong, 100% Quality, 20 Hz Low Cut, 6.22 kHz High Cut, 0.7:1.3 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G61-47202-1111-20608.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Chorus/G61-47202-3312-28720.wav",
+      "prompt": "Create a Chorus effect with the following parameters: 10 ms Delay Time, 0.631 Hz Rate, Off Spread, 75% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G91-53303-1111-21090.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Flanger/G91-53303-3322-31074.wav",
+      "prompt": "Create a Flanger effect with the following parameters: 3.98 ms Delay Time, 1.02 Hz Rate, Off Sync, 55% Depth, Off Spread, 65% Feedback, 1:1 Mix, -0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G83-65410-1111-21032.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Overdrive/G83-65410-4421-39752.wav",
+      "prompt": "Create a Overdrive effect with the following parameters: 0dB Input, 325 Hz Low Cut, 600 Hz Mid Frequency, 0dB Mid Gain, 7 Drive, 7 Shape, 4 Tone, 5 kHz High Frequency, 1.4 High Q, -4dB Output"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G63-41101-1111-20672.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/SlapbackDelay/G63-41101-2222-23792.wav",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 998 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G83-48203-1111-20999.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Tremolo/G83-48203-3342-34727.wav",
+      "prompt": "Create a Tremolo effect with the following parameters: 2.2 Hz Frequency, Sine Oscillator, 100% Output, 100% Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G63-53303-1111-20700.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Chorus/G63-53303-3312-28812.wav",
+      "prompt": "Create a Chorus effect with the following parameters: 10 ms Delay Time, 0.631 Hz Rate, Off Spread, 75% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G83-58403-1111-21025.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Distortion/G83-58403-4411-37873.wav",
+      "prompt": "Create a Distortion effect with the following parameters: 2 o clock Gain, 1 o clock Tone, 10 o clock Edge, 12 o clock Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G81-57402-1111-20946.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Phaser/G81-57402-3332-32802.wav",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G71-52112-1111-20761.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/FeedbackDelay/G71-52112-2211-21385.wav",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 144 ms Time, 80% Feedback Level, Off Ping-Pong, 100% Quality, 20 Hz Low Cut, 6.22 kHz High Cut, 0.7:1.3 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G81-50110-1111-20915.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Phaser/G81-50110-3332-32771.wav",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G93-55400-1111-21178.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/FeedbackDelay/G93-55400-2212-22426.wav",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Digital Type, 397 ms Time, 39%% Feedback Level, Off Ping-Pong, 100% Quality, 73 Hz Low Cut, 8.4 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G83-51206-1111-21002.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Flanger/G83-51206-3322-30986.wav",
+      "prompt": "Create a Flanger effect with the following parameters: 3.98 ms Delay Time, 1.02 Hz Rate, Off Sync, 55% Depth, Off Spread, 65% Feedback, 1:1 Mix, -0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G91-59500-1111-21113.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Overdrive/G91-59500-4423-41081.wav",
+      "prompt": "Create a Overdrive effect with the following parameters: Off Speaker Simulation, magic OD Factory Preset, 3dB Bass, 6dB Mid, -3dB High, 0dB Input, -10dB Output"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G83-50110-1111-20993.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/SlapbackDelay/G83-50110-2223-24737.wav",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 540 ms Delay Time, 100% Dry Mix, 40% Wet Mix, 0% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G93-53303-1111-21168.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Reverb/G93-53303-2233-26784.wav",
+      "prompt": "Create a Reverb effect with the following parameters: 0 Gating Amount, 10 ms Gating Attack, 10 ms Gating Release, 2522 ms Decay Time, 50% Decay Diffusion, Off Decay Hold, 24% Shape Size, 0 ms Shape Predelay, 100% Shape Width, 100% Shape Quality, 0 Shape Variation, 43 Hz EQ Bass Freq, - 7.8dB EQ Bass Gain, 5044 Hz EQ Treble Freq, -3.7dB EQ Treble Gain, 158 Hz Damping Bass Freq, 87% Damping Bass Amount, 8127 Hz Damping Treble Freq, 32% Damping Treble Amount, -inf Dry, 0dB Wet"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G91-71607-1111-21133.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Vibrato/G91-71607-3353-37357.wav",
+      "prompt": "Create a Vibrato effect with the following parameters: 7 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 6.5 Hz Modulation Rate, 0.2 ms Modulation Depth"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G73-52302-1111-20855.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Phaser/G73-52302-3333-33335.wav",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G83-58308-1111-21017.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Flanger/G83-58308-3321-30377.wav",
+      "prompt": "Create a Flanger effect with the following parameters: 2.61 ms Delay Time, 0.303 Hz Rate, Off Sync, 90% Depth, Off Spread, -95% Feedback, 0.24:1.8 Mix, -3dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G71-52112-1111-20761.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Tremolo/G71-52112-3341-33865.wav",
+      "prompt": "Create a Tremolo effect with the following parameters: 6 Hz Frequency, Sine Oscillator, 75% Output, 100% Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G63-60405-1111-20715.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Tremolo/G63-60405-3343-35067.wav",
+      "prompt": "Create a Tremolo effect with the following parameters: 10.74 Hz Tremolo Rate, 166.7 Pan Mod Depth, 177.1 Wet Mix, 0 Dry Mix"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G71-56306-1111-20781.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Vibrato/G71-56306-3353-37005.wav",
+      "prompt": "Create a Vibrato effect with the following parameters: 7 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 6.5 Hz Modulation Rate, 0.2 ms Modulation Depth"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G61-70511-1111-20656.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Distortion/G61-70511-4411-37504.wav",
+      "prompt": "Create a Distortion effect with the following parameters: 2 o clock Gain, 1 o clock Tone, 10 o clock Edge, 12 o clock Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G81-55210-1111-20928.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/FeedbackDelay/G81-55210-2211-21552.wav",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 144 ms Time, 80% Feedback Level, Off Ping-Pong, 100% Quality, 20 Hz Low Cut, 6.22 kHz High Cut, 0.7:1.3 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G71-42102-1111-20751.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Vibrato/G71-42102-3353-36975.wav",
+      "prompt": "Create a Vibrato effect with the following parameters: 7 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 6.5 Hz Modulation Rate, 0.2 ms Modulation Depth"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G93-41101-1111-21140.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Flanger/G93-41101-3321-30500.wav",
+      "prompt": "Create a Flanger effect with the following parameters: 2.61 ms Delay Time, 0.303 Hz Rate, Off Sync, 90% Depth, Off Spread, -95% Feedback, 0.24:1.8 Mix, -3dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G73-69605-1111-20897.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/SlapbackDelay/G73-69605-2221-23393.wav",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 229 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0.4:1.6 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G83-54304-1111-21013.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Reverb/G83-54304-2232-26005.wav",
+      "prompt": "Create a Reverb effect with the following parameters: 160 m2 Size, 38 Damping, 0 ms Predelay, 38 Hi Damp, 217 Hz Low Cut, 0dB Early Ref, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G83-49109-1111-20992.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Flanger/G83-49109-3321-30352.wav",
+      "prompt": "Create a Flanger effect with the following parameters: 2.61 ms Delay Time, 0.303 Hz Rate, Off Sync, 90% Depth, Off Spread, -95% Feedback, 0.24:1.8 Mix, -3dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G93-69510-1111-21201.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Chorus/G93-69510-3312-29313.wav",
+      "prompt": "Create a Chorus effect with the following parameters: 10 ms Delay Time, 0.631 Hz Rate, Off Spread, 75% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G61-47202-1111-20608.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Distortion/G61-47202-4413-38704.wav",
+      "prompt": "Create a Distortion effect with the following parameters: 40% Drive, 40% Muffle, 0dB Output"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G73-43103-1111-20830.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/FeedbackDelay/G73-43103-2211-21454.wav",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 144 ms Time, 80% Feedback Level, Off Ping-Pong, 100% Quality, 20 Hz Low Cut, 6.22 kHz High Cut, 0.7:1.3 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G83-68509-1111-21044.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/EQ/G83-68509-1122-27908.wav",
+      "prompt": "Create a EQ effect with the following parameters: 4x12 1 Model, 0 Drive, 0 Bias, 0dB Output, Mono Process"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G93-69510-1111-21201.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Distortion/G93-69510-4413-39297.wav",
+      "prompt": "Create a Distortion effect with the following parameters: 40% Drive, 40% Muffle, 0dB Output"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G63-55400-1111-20710.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Chorus/G63-55400-3312-28822.wav",
+      "prompt": "Create a Chorus effect with the following parameters: 10 ms Delay Time, 0.631 Hz Rate, Off Spread, 75% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G81-67603-1111-20973.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Vibrato/G81-67603-3352-36573.wav",
+      "prompt": "Create a Vibrato effect with the following parameters: 10 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 1.8 Hz Modulation Rate, 1.6 ms Modulation Depth"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G61-51206-1111-20612.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Phaser/G61-51206-3331-31844.wav",
+      "prompt": "Create a Phaser effect with the following parameters: 10 Stages, 5680 Hz Upper, 0.302 Hz Rate, Off Sync, 55% Depth, Off Spread, 80% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G63-70511-1111-20734.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/FeedbackDelay/G63-70511-2213-22606.wav",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 280 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 55% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G83-42102-1111-20985.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/FeedbackDelay/G83-42102-2212-22233.wav",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Digital Type, 397 ms Time, 39%% Feedback Level, Off Ping-Pong, 100% Quality, 73 Hz Low Cut, 8.4 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G81-50205-1111-20923.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Distortion/G81-50205-4411-37771.wav",
+      "prompt": "Create a Distortion effect with the following parameters: 2 o clock Gain, 1 o clock Tone, 10 o clock Edge, 12 o clock Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G91-45200-1111-21074.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/FeedbackDelay/G91-45200-2212-22322.wav",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Digital Type, 397 ms Time, 39%% Feedback Level, Off Ping-Pong, 100% Quality, 73 Hz Low Cut, 8.4 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G63-61311-1111-20708.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/FeedbackDelay/G63-61311-2212-21956.wav",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Digital Type, 397 ms Time, 39%% Feedback Level, Off Ping-Pong, 100% Quality, 73 Hz Low Cut, 8.4 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G93-52112-1111-21151.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Vibrato/G93-52112-3353-37375.wav",
+      "prompt": "Create a Vibrato effect with the following parameters: 7 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 6.5 Hz Modulation Rate, 0.2 ms Modulation Depth"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G61-55400-1111-20632.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Vibrato/G61-55400-3352-36232.wav",
+      "prompt": "Create a Vibrato effect with the following parameters: 10 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 1.8 Hz Modulation Rate, 1.6 ms Modulation Depth"
+    }
+  ],
+  "validation": [
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G93-67603-1111-21207.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/FeedbackDelay/G93-67603-2212-22455.wav",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Digital Type, 397 ms Time, 39%% Feedback Level, Off Ping-Pong, 100% Quality, 73 Hz Low Cut, 8.4 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G91-58308-1111-21095.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Vibrato/G91-58308-3353-37319.wav",
+      "prompt": "Create a Vibrato effect with the following parameters: 7 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 6.5 Hz Modulation Rate, 0.2 ms Modulation Depth"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G63-69510-1111-20733.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Reverb/G63-69510-2233-26349.wav",
+      "prompt": "Create a Reverb effect with the following parameters: 0 Gating Amount, 10 ms Gating Attack, 10 ms Gating Release, 2522 ms Decay Time, 50% Decay Diffusion, Off Decay Hold, 24% Shape Size, 0 ms Shape Predelay, 100% Shape Width, 100% Shape Quality, 0 Shape Variation, 43 Hz EQ Bass Freq, - 7.8dB EQ Bass Gain, 5044 Hz EQ Treble Freq, -3.7dB EQ Treble Gain, 158 Hz Damping Bass Freq, 87% Damping Bass Amount, 8127 Hz Damping Treble Freq, 32% Damping Treble Amount, -inf Dry, 0dB Wet"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G73-47202-1111-20842.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Flanger/G73-47202-3321-30202.wav",
+      "prompt": "Create a Flanger effect with the following parameters: 2.61 ms Delay Time, 0.303 Hz Rate, Off Sync, 90% Depth, Off Spread, -95% Feedback, 0.24:1.8 Mix, -3dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G93-48108-1111-21147.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Chorus/G93-48108-3312-29259.wav",
+      "prompt": "Create a Chorus effect with the following parameters: 10 ms Delay Time, 0.631 Hz Rate, Off Spread, 75% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G91-43103-1111-21064.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Flanger/G91-43103-3323-31672.wav",
+      "prompt": "Create a Flanger effect with the following parameters: 85% Feedback, 80 ms Delay, 30% Depth, 100% Stereobasis, 16 Shape Sync, 4.4 Hz Rate, 100% Output, 50% Mix"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G83-52112-1111-20995.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Overdrive/G83-52112-4421-39715.wav",
+      "prompt": "Create a Overdrive effect with the following parameters: 0dB Input, 325 Hz Low Cut, 600 Hz Mid Frequency, 0dB Mid Gain, 7 Drive, 7 Shape, 4 Tone, 5 kHz High Frequency, 1.4 High Q, -4dB Output"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G71-73609-1111-20823.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Reverb/G71-73609-2231-25191.wav",
+      "prompt": "Create a Reverb effect with the following parameters: 640 m2 Size, 18 Damping, 0 ms Predelay, 50 Hi Damp, 65 Hz Low Cut, 2dB Early Ref, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G73-56401-1111-20867.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Distortion/G73-56401-4412-38339.wav",
+      "prompt": "Create a Distortion effect with the following parameters: 3 Shape, 90% Contour, 95% Drive, wracky Factory Preset, 0dB Input, -17dB Output"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G61-64600-1111-20658.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/SlapbackDelay/G61-64600-2223-24402.wav",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 540 ms Delay Time, 100% Dry Mix, 40% Wet Mix, 0% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G71-59309-1111-20784.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/EQ/G71-59309-1122-27648.wav",
+      "prompt": "Create a EQ effect with the following parameters: 4x12 1 Model, 0 Drive, 0 Bias, 0dB Output, Mono Process"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G81-69510-1111-20967.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Distortion/G81-69510-4413-39063.wav",
+      "prompt": "Create a Distortion effect with the following parameters: 40% Drive, 40% Muffle, 0dB Output"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G73-62407-1111-20873.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Flanger/G73-62407-3322-30857.wav",
+      "prompt": "Create a Flanger effect with the following parameters: 3.98 ms Delay Time, 1.02 Hz Rate, Off Sync, 55% Depth, Off Spread, 65% Feedback, 1:1 Mix, -0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G91-58403-1111-21103.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Flanger/G91-58403-3321-30463.wav",
+      "prompt": "Create a Flanger effect with the following parameters: 2.61 ms Delay Time, 0.303 Hz Rate, Off Sync, 90% Depth, Off Spread, -95% Feedback, 0.24:1.8 Mix, -3dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G83-57307-1111-21016.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Phaser/G83-57307-3332-32872.wav",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G63-63408-1111-20718.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Reverb/G63-63408-2231-25086.wav",
+      "prompt": "Create a Reverb effect with the following parameters: 640 m2 Size, 18 Damping, 0 ms Predelay, 50 Hi Damp, 65 Hz Low Cut, 2dB Early Ref, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G73-47107-1111-20834.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Reverb/G73-47107-2231-25202.wav",
+      "prompt": "Create a Reverb effect with the following parameters: 640 m2 Size, 18 Damping, 0 ms Predelay, 50 Hi Damp, 65 Hz Low Cut, 2dB Early Ref, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G93-40100-1111-21139.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Tremolo/G93-40100-3342-34867.wav",
+      "prompt": "Create a Tremolo effect with the following parameters: 2.2 Hz Frequency, Sine Oscillator, 100% Output, 100% Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G71-52112-1111-20761.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Chorus/G71-52112-3311-28249.wav",
+      "prompt": "Create a Chorus effect with the following parameters: 3.75 ms Delay Time, 1.51 Hz Rate, On Spread, 43% Depth, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G91-49204-1111-21078.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/FeedbackDelay/G91-49204-2211-21702.wav",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 144 ms Time, 80% Feedback Level, Off Ping-Pong, 100% Quality, 20 Hz Low Cut, 6.22 kHz High Cut, 0.7:1.3 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G63-52207-1111-20691.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Distortion/G63-52207-4412-38163.wav",
+      "prompt": "Create a Distortion effect with the following parameters: 3 Shape, 90% Contour, 95% Drive, wracky Factory Preset, 0dB Input, -17dB Output"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G61-54304-1111-20623.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/SlapbackDelay/G61-54304-2223-24367.wav",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 540 ms Delay Time, 100% Dry Mix, 40% Wet Mix, 0% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G81-57402-1111-20946.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Flanger/G81-57402-3322-30930.wav",
+      "prompt": "Create a Flanger effect with the following parameters: 3.98 ms Delay Time, 1.02 Hz Rate, Off Sync, 55% Depth, Off Spread, 65% Feedback, 1:1 Mix, -0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G93-54304-1111-21169.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Flanger/G93-54304-3322-31153.wav",
+      "prompt": "Create a Flanger effect with the following parameters: 3.98 ms Delay Time, 1.02 Hz Rate, Off Sync, 55% Depth, Off Spread, 65% Feedback, 1:1 Mix, -0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G81-63504-1111-20961.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Flanger/G81-63504-3321-30321.wav",
+      "prompt": "Create a Flanger effect with the following parameters: 2.61 ms Delay Time, 0.303 Hz Rate, Off Sync, 90% Depth, Off Spread, -95% Feedback, 0.24:1.8 Mix, -3dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G71-71512-1111-20813.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/EQ/G71-71512-1122-27677.wav",
+      "prompt": "Create a EQ effect with the following parameters: 4x12 1 Model, 0 Drive, 0 Bias, 0dB Output, Mono Process"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G71-57402-1111-20790.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/FeedbackDelay/G71-57402-2213-22662.wav",
+      "prompt": "Create a FeedbackDelay effect with the following parameters: 280 ms Delay Time, 50% Dry Mix, 50% Wet Mix, 55% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G91-48108-1111-21069.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Vibrato/G91-48108-3352-36669.wav",
+      "prompt": "Create a Vibrato effect with the following parameters: 10 ms Delay Time, 0% Dry Mix, 100% Wet Mix, 0% Feedback Mix, 1.8 Hz Modulation Rate, 1.6 ms Modulation Depth"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G71-55400-1111-20788.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Phaser/G71-55400-3333-33268.wav",
+      "prompt": "Create a Phaser effect with the following parameters: 100% LFO, 2 Hz Frequency, 0 Stereo, 20% LFO min, 87% LFO max, Off Extend, 0 Distortion, 50% Feedback, 20 Stages, Wet Mix, -3dB Gain"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G71-43103-1111-20752.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Distortion/G71-43103-4411-37600.wav",
+      "prompt": "Create a Distortion effect with the following parameters: 2 o clock Gain, 1 o clock Tone, 10 o clock Edge, 12 o clock Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G81-70606-1111-20976.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/SlapbackDelay/G81-70606-2222-24096.wav",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 998 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G91-42102-1111-21063.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Tremolo/G91-42102-3341-34167.wav",
+      "prompt": "Create a Tremolo effect with the following parameters: 6 Hz Frequency, Sine Oscillator, 75% Output, 100% Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G63-52302-1111-20699.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Tremolo/G63-52302-3341-33803.wav",
+      "prompt": "Create a Tremolo effect with the following parameters: 6 Hz Frequency, Sine Oscillator, 75% Output, 100% Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G93-65506-1111-21197.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Phaser/G93-65506-3332-33053.wav",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G83-56401-1111-21023.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Tremolo/G83-56401-3342-34751.wav",
+      "prompt": "Create a Tremolo effect with the following parameters: 2.2 Hz Frequency, Sine Oscillator, 100% Output, 100% Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G83-48203-1111-20999.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Phaser/G83-48203-3332-32855.wav",
+      "prompt": "Create a Phaser effect with the following parameters: 6 Stages, 1933 Hz Upper, 0.2 Hz Rate, Off Sync, 100% Depth, Off Spread, 10% Feedback, 1:1 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G63-59309-1111-20706.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/Tremolo/G63-59309-3341-33810.wav",
+      "prompt": "Create a Tremolo effect with the following parameters: 6 Hz Frequency, Sine Oscillator, 75% Output, 100% Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G93-55210-1111-21162.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/SlapbackDelay/G93-55210-2222-24282.wav",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 0 Input, On Mono, Analog Type, 998 ms Time, 0% Feedback Level, Off Ping-Pong, 100% Quality, 20Hz Low Cut, 20 kHz High Cut, 0:2 Mix, 0dB Level"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G71-62407-1111-20795.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/EQ/G71-62407-1122-27659.wav",
+      "prompt": "Create a EQ effect with the following parameters: 4x12 1 Model, 0 Drive, 0 Bias, 0dB Output, Mono Process"
+    },
+    {
+      "x_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/NoFX/G93-72608-1111-21212.wav",
+      "y_path": "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples/SlapbackDelay/G93-72608-2223-24956.wav",
+      "prompt": "Create a SlapbackDelay effect with the following parameters: 540 ms Delay Time, 100% Dry Mix, 40% Wet Mix, 0% Feedback Mix, 0 Hz Modulation Rate, 0 ms Modulation Depth, 100% Quality"
     }
   ]
 }

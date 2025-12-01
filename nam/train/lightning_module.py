@@ -219,6 +219,8 @@ class LightningModule(_pl.LightningModule, _InitializableFromConfig):
     def init_from_config(cls, config):
         checkpoint_path = config.get("checkpoint_path")
         config = cls.parse_config(config)
+        if checkpoint_path is not None:
+            print("************ DEBUG: Initializing from checkpoint!")
         return (
             cls(**config)
             if checkpoint_path is None

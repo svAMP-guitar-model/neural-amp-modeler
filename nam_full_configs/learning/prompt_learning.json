@@ -4,7 +4,7 @@
         "representative of this!"
     ],
     "train_dataloader": {
-        "batch_size": 50,
+        "batch_size": 100,
         "shuffle": true,
         "pin_memory": true,
         "drop_last": false,
@@ -15,7 +15,7 @@
         "accelerator": "gpu",
         "devices": 2,
         "strategy": "ddp_find_unused_parameters_true",
-        "max_epochs": 60
+        "max_epochs": 100
     },
     "trainer_fit_kwargs": {}
 }

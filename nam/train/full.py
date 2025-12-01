@@ -35,6 +35,7 @@ from nam.models.prompt_wavenet import PromptWaveNet as _PromptWaveNet
 from nam.prompt_dataset import ConcatPromptDataset as _ConcatPromptDataset
 
 _torch.manual_seed(0)
+_torch.set_float32_matmul_precision("medium")
 
 
 def _rms(x: _Union[_np.ndarray, _torch.Tensor]) -> float:
