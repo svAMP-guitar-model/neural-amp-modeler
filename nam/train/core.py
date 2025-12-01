@@ -9,7 +9,7 @@ Used by the GUI and Colab trainers.
 """
 
 import hashlib as _hashlib
-import tkinter as _tk
+# import tkinter as _tk
 from copy import deepcopy as _deepcopy
 from enum import Enum as _Enum
 from functools import partial as _partial
@@ -1193,6 +1193,7 @@ def _print_nasty_checks_warning():
 
 
 def _nasty_checks_modal():
+    """
     msg = "You are ignoring the checks!\nYour model might turn out bad!"
 
     root = _tk.Tk()
@@ -1210,6 +1211,8 @@ def _nasty_checks_modal():
     ok_button.pack()
     modal.grab_set()  # disable interaction with root window while modal is open
     modal.mainloop()
+    """
+    print("******* disabled tk in repo ******** ")
 
 
 class _ValidationStopping(_pl.callbacks.EarlyStopping):
