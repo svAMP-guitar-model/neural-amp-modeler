@@ -13,8 +13,9 @@
     "val_dataloader": {},
     "trainer": {
         "accelerator": "gpu",
-        "devices": 1,
-        "max_epochs": 20
+        "devices": 2,
+        "strategy": "ddp_find_unused_parameters_true",
+        "max_epochs": 60
     },
     "trainer_fit_kwargs": {}
 }

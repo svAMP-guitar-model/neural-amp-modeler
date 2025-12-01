@@ -5,8 +5,9 @@ import pandas as pd
 
 # for now only using poly, but in real test, we'd do a split btwn the two csvs
 # vars for file paths
-wav_data_repo_path = "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples"
-wav_csv_path = "/Users/vishnuvelayuthan/computer-science/school-comp-sci/cs444/project/svAMP-data-prep/audio_effects_poly_mapping.csv"
+root_repo = "/project2/swabhas_1765/svAMP/svAMP-data-prep-main/"
+wav_data_repo_path = root_repo + "IDMT-SMT-AUDIO-EFFECTS/IDMT-SMT-AUDIO-EFFECTS/Gitarre monophon/Samples"
+wav_csv_path = root_repo + "audio_effects_poly_mapping.csv"
 
 output_dataset_file_path = "data/multi_prompt_dataset.json"
 num_examples = 300 
